@@ -1,8 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Aleksej Demianenko](https://up.htmlacademy.ru/htmlcss/36/user/2277143).
-* Наставник: [Анна Вараксина] (https://htmlacademy.ru/profile/id153610).
-<!-- * Наставник: `Анна Вараксина` . -->
+* Наставник: [Анна Вараксина](https://htmlacademy.ru/profile/id153610).
 
 ---
 
