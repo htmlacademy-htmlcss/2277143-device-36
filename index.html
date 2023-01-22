@@ -9,43 +9,39 @@
       <a class="button logo" href="index.html">
         <img class="logo" alt="logo-device" src="#">
       </a>
+      <form class="search-form" action="#" method="post">  
+        <input type="text" class="search-name" placeholder="Поиск по сайту">
+        <button class="button" type="submit">Найти</button>
+      </form>
+      <div class="user-function"><a class="button user-entry" href="#">Вход</a>
+      </div>
+      <div class="user-function"><a class="button user-compare" href="#">Сравнить</a>
+      </div>
+      <div class="user-function"><a class="button user-basket" href="#">Корзина</a>
+      </div> 
       <nav class="navigation">
-        <ul class="navigation-list">  
-          <li class="navigation-item">
-            <input type="text" class="search-window">
-          </li>
-          <li class="navigation-item"><a class="navigation-link" href="#">Найти</a>
-          </li>
-          <li class="navigation-item"><a class="navigation-link" href="#">Вход</a>
-          </li>
-        </ul>
         <ul class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link" href="#">Сравнить</a>
-          </li>
-          <li class="navigation-item"><a class="navigation-link" href="#">Корзина</a>
-          </li> 
+         <li class="navigation-item"><a class="button catalog-products" href="#">
+           Каталог товаров 
+            <img class="catalog-products" alt="plus" src="#">
+            </a>
+           <ul class="catalog-list">
+             <li class="catalog-item"><a href="#">Виртуальная реальность</a></li>
+             <li class="catalog-item"><a href="#">Моноподы для cелфи</a></li>
+             <li class="catalog-item"><a href="#">Экшн-камеры</a></li>
+             <li class="catalog-item"><a href="#">Фитнес-браслеты</a></li>
+             <li class="catalog-item"><a href="#">Умные часы</a></li>
+             <li class="catalog-item"><a href="#">Квадрокоптеры</a></li>
+           </ul>
+         </li>
+         <li class="navigation-item"><a class="button navigation-link" href="#">Доставка</a>
+         </li>
+         <li class="navigation-item"><a class="button navigation-link" href="#">Гарантия</a>
+         </li> 
+         <li class="navigation-item"><a class="button navigation-link" href="#">Контакты</a>
+         </li> 
         </ul>
-        <a class="button catalog-product" href="#">
-          Каталог товаров 
-          <img class="catalog-product" alt="plus" src="#">
-        </a>
-        <ul class="catalog-product">
-          <li class="catalog-item"><a href="#">Виртуальная реальность</a></li>
-          <li class="catalog-item"><a href="#">Моноподы для cелфи</a></li>
-          <li class="catalog-item"><a href="#">Экшн-камеры</a></li>
-          <li class="catalog-item"><a href="#">Фитнес-браслеты</a></li>
-          <li class="catalog-item"><a href="#">Умные часы</a></li>
-          <li class="catalog-item"><a href="#">Квадрокоптеры</a></li>
-        </ul>
-        <ul class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link" href="#">Доставка</a>
-          </li>
-          <li class="navigation-item"><a class="navigation-link" href="#">Гарантия</a>
-          </li> 
-          <li class="navigation-item"><a class="navigation-link" href="#">Контакты</a>
-          </li> 
-        </ul>
-      </nav>
+       </nav>
       </header>
       <main class="main-index">
         <h1 class="visually-hidden">Shop Device</h1>
@@ -217,7 +213,7 @@
             длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
           </p>  
           <form class="mailing-form" action="#" method="post">
-            <input type="email" value="Ваш e-mail">
+            <input type="email" class="mailing-address" placeholder="Ваш e-mail">
             <button class="button" type="submit">Подписаться</button>
           </form>
           <img class="image-mailing" alt="greenmark" src="#">
