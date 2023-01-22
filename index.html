@@ -10,7 +10,7 @@
         <img class="logo" alt="logo-device" src="#">
       </a>
       <form class="search-form" action="#" method="post">  
-        <input type="text" class="search-name" placeholder="Поиск по сайту">
+        <input type="text" class="search-name" placeholder="Поиск по сайту" required>
         <button class="button" type="submit">Найти</button>
       </form>
       <div class="user-function"><a class="button user-entry" href="#">Вход</a>
@@ -42,10 +42,9 @@
          </li> 
         </ul>
        </nav>
-      </header>
-      <main class="main-index">
+    </header>
+    <main class="main-index">
         <h1 class="visually-hidden">Shop Device</h1>
-      </main>
         <section class="our-product">
           <ul class="slide-list">
             <li class="slide-item">
@@ -213,17 +212,60 @@
             длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
           </p>  
           <form class="mailing-form" action="#" method="post">
-            <input type="email" class="mailing-address" placeholder="Ваш e-mail">
+            <input type="email" class="mailing-address" placeholder="Ваш e-mail" required>
             <button class="button" type="submit">Подписаться</button>
           </form>
           <img class="image-mailing" alt="greenmark" src="#">
           <span>Это бесплатно</span>
         </section>
-
-    
-    <footer>
-
+    </main>  
+    <footer class="page-footer">
+      <section class="footer-address">
+        <h2 class="visually-hidden">Address</h2>
+        <a class="button footer-logo" href="index.html">
+          <img class="footer-logo" alt="logo-device" src="#">
+        </a>
+        <address class="footer-info">
+          <p class="footer-address-info">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        </address>
+      </section>
+      <section class="footer-services">
+        <h2 class="visually-hidden">Services</h2>
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item"><a class="button navigation-link" href="#">Доставка</a>
+          </li>
+          <li class="footer-navigation-item"><a class="button navigation-link" href="#">Гарантия</a>
+          </li> 
+          <li class="footer-navigation-item"><a class="button navigation-link" href="#">Контакты</a>
+          </li> 
+        </ul>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://twitter.com/htmlacademy_ru">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-phone">
+        <h2 class="visually-hidden">Phone</h2>
+        <address class="footer-phone-number">
+          <a class="footer-contacts-phone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+        </address>
+        <a class="button htmlacademy-logo" href="https://htmlacademy.ru/study">
+          <img class="htmlacademy-logo" alt="logo-html-academy" src="#">
+        </a>
+      </section>
     </footer>
-  
   </body>
 </html>
