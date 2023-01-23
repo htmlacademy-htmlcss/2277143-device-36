@@ -9,15 +9,15 @@
       <a class="logo" href="index.html">
         <img class="logo" alt="logo-device" src="#">
       </a>
-      <form class="search-form" action="#" method="post">  
+      <form class="search" action="#" method="post">  
         <input type="text" class="search-name" placeholder="Текст поиска" required>
-        <button class="button" type="submit">Найти</button>
+        <button class="button send-search" type="submit">Найти</button>
       </form>
-      <div class="user-function"><a class="user-entry" href="#">Вход</a>
+      <div class="user-function"><a class="entry" href="#">Вход</a>
       </div>
-      <div class="user-function"><a class="user-compare" href="#">Сравнить</a>
+      <div class="user-function"><a class="compare" href="#">Сравнить</a>
       </div>
-      <div class="user-function"><a class="user-basket" href="#">Корзина</a>
+      <div class="user-function"><a class="basket" href="#">Корзина</a>
       </div> 
       <nav class="navigation">
         <ul class="navigation-list">
@@ -26,12 +26,12 @@
             <img class="catalog-products" alt="plus" src="#">
             </a>
            <ul class="catalog-list">
-             <li class="catalog-item"><a href="#">Виртуальная реальность</a></li>
-             <li class="catalog-item"><a href="#">Моноподы для cелфи</a></li>
-             <li class="catalog-item"><a href="#">Экшн-камеры</a></li>
-             <li class="catalog-item"><a href="#">Фитнес-браслеты</a></li>
-             <li class="catalog-item"><a href="#">Умные часы</a></li>
-             <li class="catalog-item"><a href="#">Квадрокоптеры</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Виртуальная реальность</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Моноподы для cелфи</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Экшн-камеры</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Фитнес-браслеты</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Умные часы</a></li>
+             <li class="catalog-item"><a class="navigation-link" href="#">Квадрокоптеры</a></li>
            </ul>
          </li>
          <li class="navigation-item"><a class="button navigation-link" href="#">Доставка</a>
@@ -52,10 +52,10 @@
             <a class="breadcrumbs-link" href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="catalog.html">Каталог товаров</a>
+            <a class="breadcrumbs-link" href="#">Каталог товаров</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Моноподы для селфи</a>
+            <a class="breadcrumbs-link" href="catalog.html">Моноподы для селфи</a>
           </li>
         </ul>
       </header>
@@ -107,7 +107,7 @@
               </li>
             </ul>  
           </fieldset>
-          <button class="button" type="submit">Показать</button>
+          <button class="button show-result" type="submit">Показать</button>
         </form>
         <select class="select-control" aria-label="sort">
           <option value="popular">Популярныее</option>
@@ -121,13 +121,14 @@
           <span class="visually-hidden">from-start</span>
           <img class="from-where-sort" alt="from-start" src="#">
         </a>
+        <h3 class="visually-hidden">Товары</h3>
         <ul class="product-card-list">
           <li class="product-card">
             <a class="product-card-link" href="#">
               <img class="product-card-image" src="#" alt="user-selfie-stick">
             </a>
             <a class="name-card-link" href="#">
-              <h3 class="product-card-title">Любительская селфи-палка</h3>
+              <h4 class="product-card-title">Любительская селфи-палка</h4>
             </a>    
             <span class="product-card-price">500 ₽</span>
           </li>
@@ -136,7 +137,7 @@
               <img class="product-card-image" src="#" alt="professional-selfie-stick">
             </a>
             <a class="name-card-link" href="#">
-              <h3 class="product-card-title">Профессиональная селфи-палка </h3>
+              <h4 class="product-card-title">Профессиональная селфи-палка </h4>
             </a>    
             <span class="product-card-price">1500 ₽</span>
           </li>
@@ -145,7 +146,7 @@
               <img class="product-card-image" src="#" alt="waterproof-selfie-stick">
             </a>
             <a class="name-card-link" href="#">
-              <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
+              <h4 class="product-card-title">Непотопляемая селфи-палка</h4>
             </a>    
             <span class="product-card-price">2500 ₽</span>
           </li>
@@ -154,7 +155,7 @@
               <img class="product-card-image" src="#" alt="selfie-stick-follow me">
             </a>
             <a class="name-card-link" href="#">
-              <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
+              <h4 class="product-card-title">Селфи-палка «Следуй за мной»</h4>
             </a>    
             <span class="product-card-price">1500 ₽</span>
           </li>
