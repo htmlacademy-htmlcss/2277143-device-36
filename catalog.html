@@ -59,11 +59,34 @@
           </li>
         </ul>
       </header>
+      <section class="sorting">
+        <h2 class="visually-hidden">Сортировка</h2>
+        <select class="select-control" aria-label="sort">
+          <option value="popular">Популярныее</option>
+          <option value="cheap">Дешёвое</option>
+        </select>
+        <ul class="catalog-from">
+          <li class="catalog-from-filter">
+            <label class="control">
+              <input class="control-from" type="radio" name="show-from">from-end
+            </label>
+          </li>
+          <li class="catalog-from">
+            <label class="control">
+              <input class="control-from" type="radio" name="show-from" checked>from-start
+            </label>
+          </li>
+        </ul>  
+      </section>
       <section class="catalog-iner">
         <h2 class="visually-hidden">Фильтрация</h2>
         <h3 class="visually-hidden">Фильтр</h3>
         <div class="inner-title">фильтр:</div>
         <form class="catalog-filter" action="#" method="get">
+          <div>
+            <label for="price">Стоимость</label>
+            <input type="range" id="price" name="price" min="0" max="8000" step="500" placeholder="max = 500">
+          </div>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Цвет</legend>
             <ul class="catalog-filter-list">
@@ -104,25 +127,13 @@
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="no-availability" value="No">Нет
+                  <input class="control-input" type="radio" name="availability" value="No">Нет
                 </label>
               </li>
             </ul>  
           </fieldset>
           <button class="button show-result" type="submit">Показать</button>
         </form>
-        <select class="select-control" aria-label="sort">
-          <option value="popular">Популярныее</option>
-          <option value="cheap">Дешёвое</option>
-        </select>
-        <a class="from-where-sort" href="#">
-          <span class="visually-hidden">from-end</span>
-          <img class="from-where-sort" alt="from-end" src="#">
-        </a>
-        <a class="from-where-sort" href="#">
-          <span class="visually-hidden">from-start</span>
-          <img class="from-where-sort" alt="from-start" src="#">
-        </a>
         <h3 class="visually-hidden">Товары</h3>
         <ul class="product-card-list">
           <li class="product-card">
@@ -162,7 +173,7 @@
             <span class="product-card-price">1500 ₽</span>
           </li>
         </ul>
-        <button class="button upload-card" type="button">Загрузить ещЁ</button>
+        <a class="button upload-card" href="#">Загрузить ещЁ</a>
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-prev pagination-disabled">Назад</a>
