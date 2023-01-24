@@ -11,34 +11,32 @@
       </a>
       <form class="search" action="#" method="post">  
         <input type="text" class="search-name" placeholder="Текст поиска" required>
-        <button class="button send-search" type="submit">Найти</button>
+        <button class="send-search" type="submit">Найти</button>
       </form>
-      <div class="user-function"><a class="entry" href="#">Вход</a>
-      </div>
-      <div class="user-function"><a class="compare" href="#">Сравнить</a>
-      </div>
-      <div class="user-function"><a class="basket" href="#">Корзина</a>
-      </div> 
+      <a class="entry" href="#">Вход</a>
+      <a class="compare" href="#">Сравнить</a>
+      <a class="basket" href="#">Корзина</a> 
       <nav class="navigation">
         <ul class="navigation-list">
-         <li class="navigation-item"><a class="button catalog-products" href="#">
-           Каталог товаров 
-            <img class="catalog-products" alt="plus" src="#">
+         <li class="navigation-item">
+            <a class="button catalog-products" href="#">
+             Каталог товаров 
+              <img class="catalog-products" alt="plus" src="#">
             </a>
-           <ul class="catalog-list">
-             <li class="catalog-item"><a class="navigation-link" href="#">Виртуальная реальность</a></li>
-             <li class="catalog-item"><a class="navigation-link" href="#">Моноподы для cелфи</a></li>
-             <li class="catalog-item"><a class="navigation-link" href="#">Экшн-камеры</a></li>
-             <li class="catalog-item"><a class="navigation-link" href="#">Фитнес-браслеты</a></li>
-             <li class="catalog-item"><a class="navigation-link" href="#">Умные часы</a></li>
-             <li class="catalog-item"><a class="navigation-link" href="#">Квадрокоптеры</a></li>
-           </ul>
+            <ul class="catalog-list">
+              <li class="catalog-item"><a class="navigation-link" href="#">Виртуальная реальность</a></li>
+              <li class="catalog-item"><a class="navigation-link" href="#">Моноподы для cелфи</a></li>
+              <li class="catalog-item"><a class="navigation-link" href="#">Экшн-камеры</a></li>
+              <li class="catalog-item"><a class="navigation-link" href="#">Фитнес-браслеты</a></li>
+              <li class="catalog-item"><a class="navigation-link" href="#">Умные часы</a></li>
+              <li class="catalog-item"><a class="navigation-link" href="#">Квадрокоптеры</a></li>
+            </ul>
          </li>
-         <li class="navigation-item"><a class="button navigation-link" href="#">Доставка</a>
+         <li class="navigation-item"><a class="navigation-link" href="#">Доставка</a>
          </li>
-         <li class="navigation-item"><a class="button navigation-link" href="#">Гарантия</a>
+         <li class="navigation-item"><a class="navigation-link" href="#">Гарантия</a>
          </li> 
-         <li class="navigation-item"><a class="button navigation-link" href="#">Контакты</a>
+         <li class="navigation-item"><a class="navigation-link" href="#">Контакты</a>
          </li> 
         </ul>
        </nav>
@@ -85,7 +83,7 @@
         <form class="catalog-filter" action="#" method="get">
           <div>
             <label for="price">Стоимость</label>
-            <input type="range" id="price" name="price" min="0" max="8000" step="500" placeholder="max = 500">
+            <input type="range" id="price" name="price" min="0" max="8000" step="500">
           </div>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Цвет</legend>
@@ -173,7 +171,7 @@
             <span class="product-card-price">1500 ₽</span>
           </li>
         </ul>
-        <a class="button upload-card" href="#">Загрузить ещЁ</a>
+        <a class="upload-card" href="#">Загрузить ещЁ</a>
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-prev pagination-disabled">Назад</a>
