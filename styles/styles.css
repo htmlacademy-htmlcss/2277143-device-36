@@ -1,19 +1,19 @@
 @font-face {
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
-font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
-font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -23,21 +23,88 @@ font-display: swap;
   font-weight: 700;
   src: url(../fonts/rubik/rubik-700.woff2) format("woff2");
   font-display: swap;
-  }
+}
 
-  body {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    background-color: #ffffff;
-    color: #444444;
-  }
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #ffffff;
+  color: #444444;
+}
 
-  .page-header {
-    background: #FFE17F;
-    color: #000000;
-  }
+/*header*/
+.page-header {
+  background: #FFE17F;
+  color: #000000;
+}
 
- .navigation-link{
+.search {
+  color: #000000;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
 
-  }
+.send-search {
+  background: #FFE17F;
+  text-align: center;
+}
+
+.search input {
+  background: #FFE17F;
+}
+
+.entry {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.compare {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.basket {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-item a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+}
+
+.catalog-item .navigation-link{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/*footer/
+
+
