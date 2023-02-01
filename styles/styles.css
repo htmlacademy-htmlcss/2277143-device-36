@@ -53,7 +53,10 @@ body {
 }
 
 .search input {
+  color: #000000;
   background: #FFE17F;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .user {
@@ -103,8 +106,8 @@ body {
 
 /*main-index.html*/
 
-/*slider*/
-.slogan-product {
+/*products*/
+.principal-name {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -113,7 +116,7 @@ body {
   color: #000000;
 }
 
-.decription-product {
+.decription {
   font-style: normal;
   font-weight: 400;
 }
@@ -132,10 +135,11 @@ body {
 
 /*slider-table*/
 
-.characteristics-product{
+.characteristics-product {
   font-weight: 400;
   font-style: normal;
 }
+
 .characteristics-index {
   font-size: 36px;
   color: #000000;
@@ -144,3 +148,85 @@ body {
 .characteristics-description {
   font-size: 16px;
 }
+
+/*group-product*/
+
+.group-product-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*delivery*/
+
+.delivery {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*about-us*/
+
+.about-us-other-list{
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+/*contacts*/
+.contacts h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contacts address{
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contacts .address-phone{
+  color: #444444;;
+}
+
+/*mailing*/
+
+.mailing{
+  background: #F0F0F0;
+}
+
+.mailing input{
+  background: #F0F0F0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+line-height: 30px;
+color: #444444;
+}
+
+.send-mailing-form{
+  background: #F0F0F0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  ine-height: 21px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
