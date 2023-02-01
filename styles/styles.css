@@ -59,17 +59,14 @@ body {
 .user {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
   color: #000000;
   text-decoration: none;
 }
 
-
-.navigation-item a{
+/*navigation*/
+.navigation-item a {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   color: #000000;
@@ -77,35 +74,73 @@ body {
   letter-spacing: 0.2em;
 }
 
-.catalog-item .navigation-link{
+.catalog-item .navigation-link {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #000000;
-  text-decoration: none;
   letter-spacing: normal;
   text-transform: none;
 }
 
 /*footer*/
-.page-footer{
+.page-footer {
   background: #444444;
   color: #FFFFFF;
 }
 
-.page-footer a{
+.page-footer a {
   color: #FFFFFF;
 }
 
-.footer-info address{
+.footer-info address {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   font-style: normal;
-
 }
 
+/*main-index.html*/
 
+/*slider*/
+.slogan-product {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
 
+.decription-product {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*slider-table*/
+
+.characteristics-product{
+  font-weight: 400;
+  font-style: normal;
+}
+.characteristics-index {
+  font-size: 36px;
+  color: #000000;
+}
+
+.characteristics-description {
+  font-size: 16px;
+}
