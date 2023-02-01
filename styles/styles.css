@@ -116,7 +116,7 @@ body {
   color: #000000;
 }
 
-.decription {
+.description {
   font-style: normal;
   font-weight: 400;
 }
@@ -178,7 +178,7 @@ body {
 
 /*about-us*/
 
-.about-us-other-list{
+.about-us-other-list {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -187,37 +187,38 @@ body {
 }
 
 /*contacts*/
-.contacts h3{
+.contacts h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
 }
 
-.contacts address{
+.contacts address {
   font-style: normal;
   font-weight: 400;
 }
 
-.contacts .address-phone{
-  color: #444444;;
+.contacts .address-phone {
+  color: #444444;
+  ;
 }
 
 /*mailing*/
 
-.mailing{
+.mailing {
   background: #F0F0F0;
 }
 
-.mailing input{
+.mailing input {
   background: #F0F0F0;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-line-height: 30px;
-color: #444444;
+  line-height: 30px;
+  color: #444444;
 }
 
-.send-mailing-form{
+.send-mailing-form {
   background: #F0F0F0;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -230,3 +231,115 @@ color: #444444;
   color: #000000;
 }
 
+/*catalog-monopods.html*/
+
+.breadcrumbs-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*sorting*/
+
+.sorting {
+  background: #F0F0F0;
+}
+
+.sorting-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  etter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sorting select {
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  background: #F0F0F0;
+}
+
+/*filters*/
+
+.filters {
+  background: #F0F0F0;
+}
+
+.filters-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  etter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.second-filter-item {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+}
+
+/*result*/
+
+.result-item-link {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.result-item-price {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+  color: #444444;
+}
+
+.upload-result {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.result-pagination{
+  background: #EBEBEB;
+}
+
+.result-pagination-link{
+  text-decoration: none;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #444444;
+}
