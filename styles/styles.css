@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
 
   font-family: 'Raleway';
   font-style: normal;
@@ -33,6 +33,18 @@ body {
   color: #444444;
 }
 
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
 /*header*/
 .page-header {
   background: #FFE17F;
@@ -41,7 +53,6 @@ body {
 
 .search {
   color: #000000;
-  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -53,21 +64,22 @@ body {
 }
 
 .search input {
-  color: #000000;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
   background: #FFE17F;
   font-weight: 400;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .user {
-  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   color: #000000;
   text-decoration: none;
 }
 
-/*navigation*/
-.navigation-item a {
+/*header-navigation*/
+.navigation-item a{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   line-height: 21px;
@@ -97,7 +109,6 @@ body {
 }
 
 .footer-info address {
-  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -121,24 +132,7 @@ body {
   font-weight: 400;
 }
 
-.button {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  line-height: 21px;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #000000;
-  text-decoration: none;
-}
-
 /*slider-table*/
-
-.characteristics-product {
-  font-weight: 400;
-  font-style: normal;
-}
 
 .characteristics-index {
   font-size: 36px;
@@ -159,6 +153,12 @@ body {
   letter-spacing: -0.02em;
   color: #000000;
   text-decoration: none;
+}
+
+/*servisec*/
+
+.services{
+  background: #F0F0F0;
 }
 
 /*delivery*/
@@ -198,9 +198,8 @@ body {
   font-weight: 400;
 }
 
-.contacts .address-phone {
+.address-info a {
   color: #444444;
-  ;
 }
 
 /*mailing*/
@@ -210,8 +209,9 @@ body {
 }
 
 .mailing input {
-  background: #F0F0F0;
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
+  background: #F0F0F0;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -254,7 +254,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
-  etter-spacing: 0.2em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
 }
