@@ -160,15 +160,15 @@
    background: #F0F0F0;
  }
 
- .second-slider-page-current{
-  color: #FFE17F;
-  background: #000000;
+ .second-slider-page-current {
+   color: #FFE17F;
+   background: #000000;
  }
 
  /*delivery*/
 
- .exclusive-product{
-  background: #F0F0F0;
+ .exclusive-product {
+   background: #F0F0F0;
  }
 
  .exclusive-delivery {
@@ -269,7 +269,7 @@
 
  /*filters*/
 
- .filter-title {
+ .filter-name {
    font-weight: 700;
    line-height: 20px;
    letter-spacing: -0.02em;
