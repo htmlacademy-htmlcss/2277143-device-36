@@ -45,6 +45,7 @@
  }
 
  /*header*/
+
  .page-header {
    background: #FFE17F;
    color: #000000;
@@ -77,6 +78,7 @@
  }
 
  /*header-navigation*/
+
  .navigation-item a {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
@@ -97,6 +99,7 @@
  }
 
  /*footer*/
+
  .page-footer {
    background: #444444;
    color: #FFFFFF;
@@ -116,6 +119,7 @@
  /*main-index.html*/
 
  /*products*/
+
  .principal-name {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
@@ -150,7 +154,7 @@
    text-decoration: none;
  }
 
- /*servisec*/
+ /*services*/
 
  .services {
    background: #F0F0F0;
@@ -180,6 +184,7 @@
  }
 
  /*contacts*/
+ 
  .contacts h3 {
    font-weight: 700;
    font-size: 24px;
@@ -296,6 +301,8 @@
    text-decoration: none;
  }
 
+ /*padination*/
+
  .result-pagination {
    background: #EBEBEB;
  }
@@ -310,11 +317,7 @@
    background: #EBEBEB;
  }
 
- /*
- .pagination-curren {
-  opacity: 0.6;
- }*/
- .pagination-prev {
+ .switch {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 18px;
@@ -325,17 +328,6 @@
    color: #000000;
  }
 
- .pagination-next {
-   font-family: 'Raleway', sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 21px;
-   align-items: center;
-   letter-spacing: 0.2em;
-   text-transform: uppercase;
-   color: #000000;
- }
-
-.pagination-disabled {
-  color: #444444;
+ .pagination-disabled {
+   color: #444444;
  }
