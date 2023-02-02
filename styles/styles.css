@@ -120,7 +120,7 @@
 
  /*products*/
 
- .principal-name {
+ .large-name {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 50px;
@@ -134,12 +134,12 @@
 
  /*slider-table*/
 
- .characteristics-index {
+ .details-index {
    font-size: 36px;
    color: #000000;
  }
 
- .characteristics-description {
+ .details-description {
    font-size: 16px;
  }
 
@@ -326,7 +326,7 @@
    background: #EBEBEB;
  }
 
- .switch {
+ .control {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 18px;
