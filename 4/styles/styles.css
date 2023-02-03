@@ -1,5 +1,4 @@
  @font-face {
-
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 800;
@@ -8,7 +7,6 @@
  }
 
  @font-face {
-
    font-family: 'Rubik';
    font-style: normal;
    font-weight: 400;
@@ -17,7 +15,6 @@
  }
 
  @font-face {
-
    font-family: 'Rubik';
    font-style: normal;
    font-weight: 700;
@@ -26,10 +23,10 @@
  }
 
  body {
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Rubik', 'Arial', sans-serif;
    font-size: 18px;
    line-height: 30px;
-   background-color: #ffffff;
+   background-color: #FFFFFF;
    color: #444444;
  }
 
@@ -47,7 +44,7 @@
  /*header*/
 
  .page-header {
-   background: #FFE17F;
+   background-color: #FFE17F;
    color: #000000;
  }
 
@@ -60,14 +57,14 @@
 
  .search-name {
    font-family: 'Rubik', sans-serif;
-   background: #FFE17F;
+   background-color: #FFE17F;
    font-weight: 400;
    font-size: 16px;
    line-height: 20px;
  }
 
  .send-search {
-   background: #FFE17F;
+   background-color: #FFE17F;
    text-align: center;
  }
 
@@ -75,6 +72,32 @@
    font-weight: 400;
    color: #000000;
    text-decoration: none;
+ }
+
+ .entry::before {
+  content: url("../images/header/img-user.svg");
+  background-repeat: no-repeat;
+  margin-right: 13px;
+ }
+
+ .entry {
+  margin-right: 26px;
+ }
+
+ .compare::before {
+  content: url("../images/header/img-comapre.svg");
+  background-repeat: no-repeat;
+  margin-right: 12px;
+ }
+
+ .compare {
+  margin-right: 36px;
+ }
+
+ .basket::before {
+  content: url("../images/header/basket.svg");
+  background-repeat: no-repeat;
+  margin-right: 12px;
  }
 
  /*header-navigation*/
@@ -101,7 +124,7 @@
  /*footer*/
 
  .page-footer {
-   background: #444444;
+   background-color: #444444;
    color: #FFFFFF;
  }
 
@@ -157,18 +180,18 @@
  /*services*/
 
  .services {
-   background: #F0F0F0;
+   background-color: #F0F0F0;
  }
 
  .second-slider-page-current {
    color: #FFE17F;
-   background: #000000;
+   background-color: #000000;
  }
 
  /*delivery*/
 
  .exclusive-product {
-   background: #F0F0F0;
+   background-color: #F0F0F0;
  }
 
  .exclusive-delivery {
@@ -211,12 +234,12 @@
  /*mailing*/
 
  .mailing {
-   background: #F0F0F0;
+   background-color: #F0F0F0;
  }
 
  .mailing-address {
    font-family: 'Rubik', sans-serif;
-   background: #F0F0F0;
+   background-color: #F0F0F0;
    font-weight: 400;
    font-size: 18px;
    line-height: 30px;
@@ -224,7 +247,7 @@
  }
 
  .send-mailing-form {
-   background: #F0F0F0;
+   background-color: #F0F0F0;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    line-height: 21px;
@@ -248,7 +271,7 @@
  /*sorting*/
 
  .chois {
-   background: #F0F0F0;
+   background-color: #F0F0F0;
  }
 
  .chois h2 {
@@ -264,7 +287,7 @@
  .sorting select {
    font-weight: 400;
    color: #000000;
-   background: #F0F0F0;
+   background-color: #F0F0F0;
  }
 
  /*filters*/
@@ -313,7 +336,7 @@
  /*padination*/
 
  .result-pagination {
-   background: #EBEBEB;
+   background-color: #EBEBEB;
  }
 
  .result-pagination-link {
@@ -323,7 +346,7 @@
    line-height: 20px;
    text-align: center;
    color: #444444;
-   background: #EBEBEB;
+   background-color: #EBEBEB;
  }
 
  .control {
