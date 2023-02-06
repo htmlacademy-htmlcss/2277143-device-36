@@ -177,6 +177,13 @@
    text-decoration: none;
  }
 
+ .virtual:before {
+  content: url("../images/index/catalog/img-viruality.svg");
+  background-repeat: no-repeat;
+  margin-right: 12px
+  background: #FFE17F;
+ }
+
  /*services*/
 
  .services {
