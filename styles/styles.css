@@ -244,7 +244,7 @@
    background-color: #F0F0F0;
  }
 
- .mailing-address {
+ .mailing-email {
    font-family: 'Rubik', sans-serif;
    background-color: #F0F0F0;
    font-weight: 400;
@@ -253,7 +253,7 @@
    color: #444444;
  }
 
- .send-mailing-form {
+ .mailing-form-send {
    background-color: #F0F0F0;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
