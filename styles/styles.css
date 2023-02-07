@@ -291,18 +291,17 @@
    font-weight: 400;
  }
 
- .products {
+ .first-slider {
    margin: 0;
    padding: 0;
    width: 1160px;
  }
 
-
  .first-slider-item {
    display: flex;
    margin: 0;
    padding: 0;
-   justify-content: space-between
+   justify-content: space-between;
  }
 
  .slider-first-part {
@@ -387,6 +386,7 @@
  .second-slider-item {
    width: 694px;
    max-width: 729px;
+   margin-left: 116px;
  }
 
  .second-slider-page-current {
@@ -398,7 +398,7 @@
 
  .exclusive-product {
    background-color: #F0F0F0;
-   width: 910px;
+   width: 1160px;
    margin: 0 auto;
    text-align: center;
  }
@@ -463,13 +463,13 @@
 
  .mailing-review {
    display: flex;
-   margin: 0 auto;
+   margin: 0;
    padding: 0;
+   justify-content: space-between;
  }
 
  .mailing-review h2 {
    width: 348px;
-   margin-right: 252px;
  }
 
  .mailing-review p {
