@@ -510,13 +510,26 @@
    text-decoration: none;
  }
 
- /*sorting*/
+ /*catalogs*/
+
+ .catalogs{
+  display: flex;
+ }
+
+ .filters{
+  width: 320px;
+  margin-right: 60px;
+ }
+
+ .catalog-right-column {
+width: 840px;
+ }
 
  .chois {
    background-color: #F0F0F0;
  }
 
- .chois h2 {
+ .chois .sorting-title {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 16px;
@@ -525,6 +538,16 @@
    text-transform: uppercase;
    color: #000000;
  }
+
+ .chois .filters-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
 
  .sorting select {
    font-weight: 400;
