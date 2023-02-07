@@ -209,6 +209,50 @@
 
  /*footer*/
 
+ .page-footer-container {
+   display: flex;
+   flex-direction: column;
+   width: 1160px;
+   margin: 0 auto;
+ }
+
+ .footer-info {
+   display: flex;
+ }
+
+ .footer-address {
+   width: 234px;
+   margin-right: 124px;
+ }
+
+ .footer-services-list {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 183px;
+   width: 444px;
+   list-style-type: none;
+ }
+
+ .footer-phone {
+   width: 175px;
+ }
+
+ .social{
+  display: flex;
+  margin: 0;
+ }
+
+.footer-social-list{
+  width: 150px;
+  display: flex;
+  margin-left: 505px;
+}
+
+.htmlacademy-logo{
+  width: 115px;
+  margin-left: 390px;
+}
+
  .page-footer {
    background-color: #444444;
    color: #FFFFFF;
@@ -428,7 +472,7 @@
    flex-direction: row;
    padding: 0;
    width: 1158px;
-   margin-left: 0 ;
+   margin-left: 0;
    justify-content: space-between;
  }
 
