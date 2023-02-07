@@ -210,10 +210,13 @@
    flex-direction: column;
    width: 1160px;
    margin: 0 auto;
+   padding: 0;
  }
 
  .footer-info {
    display: flex;
+   margin: 0;
+   padding: 0;
 
  }
 
@@ -225,9 +228,9 @@
  .footer-services-list {
    display: flex;
    justify-content: space-between;
-   margin-right: auto;
    width: 444px;
    list-style-type: none;
+   margin-right: auto;
  }
 
  .footer-phone {
@@ -521,8 +524,9 @@
 
  .catalogs {
    display: flex;
+   padding: 0;
+   margin: 0;
  }
-
 
  .filters {
    width: 320px;
@@ -578,6 +582,10 @@
  }
 
  /*result*/
+
+ .result-item {
+   list-style-type: none;
+ }
 
  .result-item-link {
    font-weight: 700;
