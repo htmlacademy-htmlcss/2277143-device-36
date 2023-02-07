@@ -22,12 +22,24 @@
    font-display: swap;
  }
 
+
+ html {
+   height: 100%;
+ }
+
  body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
    font-family: 'Rubik', 'Arial', sans-serif;
    font-size: 18px;
    line-height: 30px;
    background-color: #FFFFFF;
    color: #444444;
+
+   outline: 5px solid rgba(255, 99, 78, 0.5);
+   outline-offset: -5px;
  }
 
  .button {
@@ -75,29 +87,29 @@
  }
 
  .entry::before {
-  content: url("../images/header/img-user.svg");
-  background-repeat: no-repeat;
-  margin-right: 12px;
+   content: url("../images/header/img-user.svg");
+   background-repeat: no-repeat;
+   margin-right: 12px;
  }
 
  .entry {
-  margin-right: 26px;
+   margin-right: 26px;
  }
 
  .compare::before {
-  content: url("../images/header/img-comapre.svg");
-  background-repeat: no-repeat;
-  margin-right: 12px;
+   content: url("../images/header/img-comapre.svg");
+   background-repeat: no-repeat;
+   margin-right: 12px;
  }
 
  .compare {
-  margin-right: 36px;
+   margin-right: 36px;
  }
 
  .basket::before {
-  content: url("../images/header/basket.svg");
-  background-repeat: no-repeat;
-  margin-right: 12px;
+   content: url("../images/header/basket.svg");
+   background-repeat: no-repeat;
+   margin-right: 12px;
  }
 
  /*header-navigation*/
@@ -141,6 +153,10 @@
 
  /*main-index.html*/
 
+.main-container{
+  flex-grow: 1;
+}
+
  /*products*/
 
  .large-name {
@@ -178,10 +194,9 @@
  }
 
  .virtual:before {
-  content: url("../images/index/catalog/img-viruality.svg");
-  background-repeat: no-repeat;
-  margin-right: 12px
-  background: #FFE17F;
+   content: url("../images/index/catalog/img-viruality.svg");
+   background-repeat: no-repeat;
+   margin-right: 12px background: #FFE17F;
  }
 
  /*services*/
