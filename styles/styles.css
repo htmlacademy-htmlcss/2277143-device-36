@@ -365,9 +365,9 @@
 
  .services {
    display: flex;
-   background-color: #F0F0F0;
    margin: 0;
    padding: 0;
+   background-color: #F0F0F0;
  }
 
  .second-slider-pagination {
@@ -382,7 +382,6 @@
  }
 
  .second-slider-item {
-   width: 694px;
    max-width: 729px;
    margin-left: 116px;
  }
@@ -395,10 +394,10 @@
  /*delivery*/
 
  .exclusive-product {
-   background-color: #F0F0F0;
    width: 1160px;
    margin: 0 auto;
    text-align: center;
+   background-color: #F0F0F0;
  }
 
  .exclusive-delivery {
@@ -417,6 +416,7 @@
  .information {
    display: flex;
    margin: 0 auto;
+   padding: 0;
    justify-content: space-between;
  }
 
@@ -503,6 +503,10 @@
    letter-spacing: 0.2em;
    text-transform: uppercase;
    color: #000000;
+ }
+
+ .mailing-react span{
+  max-width: 165PX;
  }
 
  /*main-catalog-monopods.html*/
