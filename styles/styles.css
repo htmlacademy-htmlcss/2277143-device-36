@@ -211,14 +211,18 @@
  .page-footer-container {
    display: flex;
    flex-direction: column;
-   width: 1160px;
+   width: 1440px;
    margin: 0 auto;
    padding: 0;
  }
 
+.footer-logo{
+  margin-left: 140px;
+}
+
  .footer-info {
    display: flex;
-   margin: 0;
+   margin: 0 140px;
    padding: 0;
 
  }
@@ -244,8 +248,8 @@
 
  .social {
    display: flex;
+   margin: 0 140px;
    justify-content: end;
-   margin: 0;
    padding: 0;
  }
 
@@ -352,7 +356,7 @@
  .group-product-list {
    display: flex;
    justify-content: space-between;
-   margin: 0;
+   margin: 0 140px;
    padding: 0;
  }
 
@@ -381,13 +385,15 @@
 
  .second-slider-pagination {
    width: 280px;
+   margin-left: 140px;
    list-style-type: none;
-   margin: 0;
    padding: 0;
  }
 
  .second-slider {
+  margin-right: 140px;
    list-style-type: none;
+
  }
 
  .second-slider-item {
@@ -424,7 +430,7 @@
 
  .information {
    display: flex;
-   margin: 0 auto;
+   margin: 0 140px;
    padding: 0;
    justify-content: space-between;
  }
@@ -470,7 +476,7 @@
 
  .mailing-review {
    display: flex;
-   margin: 0;
+   margin: 0 140px;
    padding: 0;
    justify-content: space-between;
  }
@@ -486,7 +492,7 @@
  .mailing-react {
    display: flex;
    padding: 0;
-   margin: 0;
+   margin: 0 140px;
    justify-content: space-between;
  }
 
