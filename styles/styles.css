@@ -180,12 +180,12 @@
  }
 
  .list-block:nth-child(1) {
-  width: 222px;
+   width: 222px;
    margin-right: 30px;
  }
 
  .list-block:nth-child(2) {
-  width: 211px;
+   width: 211px;
    margin-right: 1px;
  }
 
@@ -218,20 +218,19 @@
    padding: 0;
  }
 
-.footer-logo{
-  margin-left: 140px;
-}
+ .footer-logo {
+   margin-left: 140px;
+ }
 
  .footer-info {
    display: flex;
    margin: 0 140px;
    padding: 0;
-
+   justify-content: space-between;
  }
 
  .footer-address {
    width: 234px;
-   margin-right: 124px;
  }
 
  .footer-services-list {
@@ -241,7 +240,6 @@
    list-style-type: none;
    margin: 0;
    padding: 0;
-   margin-right: 183px;
  }
 
  .footer-phone {
@@ -393,7 +391,7 @@
  }
 
  .second-slider {
-  margin-right: 140px;
+   margin-right: 140px;
    list-style-type: none;
 
  }
@@ -537,13 +535,13 @@
  /*main-catalog-monopods.html*/
 
  .header-inner {
-  margin-left: 200px;
+   margin-left: 200px;
  }
 
- .breadcrumbs{
-  margin: 0;
-  padding: 0;
-  display: flex;
+ .breadcrumbs {
+   margin: 0;
+   padding: 0;
+   display: flex;
  }
 
  .breadcrumbs-link {
@@ -616,12 +614,24 @@
 
  /*result*/
 
- .result-list{
-  background-color: #FFFFFF;
+ .catalog-right-column-white {
+   background-color: #FFFFFF;
+ }
+
+ .result-list {
+   display: flex;
+   margin: 0;
+   padding: 0;
+   flex-wrap: wrap;
+   padding: 70px 40px 44px 40px;
  }
 
  .result-item {
    list-style-type: none;
+ }
+
+ .result-item:nth-child(2n) {
+   margin-left: 40px;
  }
 
  .result-item-link {
