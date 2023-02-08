@@ -140,8 +140,8 @@
    margin-right: 12px;
  }
 
- .basket{
-  margin-left: 36px;
+ .basket {
+   margin-left: 36px;
  }
 
  /*header-navigation*/
@@ -244,13 +244,17 @@
 
  .social {
    display: flex;
+   justify-content: end;
    margin: 0;
+   padding: 0;
  }
 
  .footer-social-list {
    width: 150px;
    display: flex;
-   margin-left: 505px;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
  }
 
  .htmlacademy-logo {
@@ -483,9 +487,15 @@
    justify-content: space-between;
  }
 
+ .mailing-form {
+   padding: 0;
+   margin: 0;
+ }
 
  .mailing-email {
    width: 557px;
+   margin: 0;
+   padding: 0;
    font-family: 'Rubik', sans-serif;
    background-color: #F0F0F0;
    font-weight: 400;
@@ -496,6 +506,8 @@
 
  .mailing-form-send {
    width: 253px;
+   margin: 0;
+   padding: 0;
    background-color: #F0F0F0;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
@@ -507,8 +519,8 @@
    color: #000000;
  }
 
- .mailing-react span{
-  max-width: 165PX;
+ .mailing-react span {
+   max-width: 165PX;
  }
 
  /*main-catalog-monopods.html*/
