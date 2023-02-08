@@ -130,7 +130,6 @@
  }
 
  .compare {
-   margin-right: 36px;
    margin-left: auto;
  }
 
@@ -138,6 +137,10 @@
    content: url("../images/header/basket.svg");
    background-repeat: no-repeat;
    margin-right: 12px;
+ }
+
+ .basket{
+  margin-left: 36px;
  }
 
  /*header-navigation*/
