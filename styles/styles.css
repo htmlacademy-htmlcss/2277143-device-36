@@ -80,7 +80,7 @@
 
  .custom-menu {
    display: flex;
-   margin: 0 60px;
+   margin: 0 auto;
    padding: 0;
    width: 1040px;
  }
@@ -144,11 +144,10 @@
 
  .navigation-list {
    display: flex;
-   margin: 0;
+   margin: 0 auto;
    padding: 0;
    width: 1040px;
    list-style-type: none;
-   margin-left: 60px;
  }
 
  .navigation-list .navigation-item:nth-child(2) {
