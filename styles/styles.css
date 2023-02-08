@@ -180,10 +180,12 @@
  }
 
  .list-block:nth-child(1) {
+  width: 222px;
    margin-right: 30px;
  }
 
  .list-block:nth-child(2) {
+  width: 211px;
    margin-right: 1px;
  }
 
@@ -534,6 +536,16 @@
 
  /*main-catalog-monopods.html*/
 
+ .header-inner {
+  margin-left: 200px;
+ }
+
+ .breadcrumbs{
+  margin: 0;
+  padding: 0;
+  display: flex;
+ }
+
  .breadcrumbs-link {
    font-weight: 400;
    font-size: 16px;
@@ -546,20 +558,19 @@
 
  .catalogs {
    display: flex;
+   width: 1440px;
    padding: 0;
    margin: 0;
+   background-color: #F0F0F0;
  }
 
  .filters {
    width: 320px;
+   margin-left: 140px;
  }
 
  .catalog-right-column {
    width: 840px;
- }
-
- .chois {
-   background-color: #F0F0F0;
  }
 
  .chois .sorting-title {
@@ -605,6 +616,10 @@
 
  /*result*/
 
+ .result-list{
+  background-color: #FFFFFF;
+ }
+
  .result-item {
    list-style-type: none;
  }
@@ -642,6 +657,8 @@
  .result-pagination {
    width: 760px;
    margin: 0 40px;
+   padding: 0;
+   list-style-type: none;
    background-color: #EBEBEB;
  }
 
