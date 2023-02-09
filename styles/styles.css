@@ -305,7 +305,6 @@
  .first-slider {
    margin: 0;
    padding: 0;
-   width: 1440px;
  }
 
  .first-slider-item {
@@ -362,8 +361,8 @@
  }
 
  .group-product-item {
-   width: 160px;
    list-style-type: none;
+   width: 160px;
  }
 
  /*services*/
@@ -434,6 +433,7 @@
  }
 
  .about-us-list {
+   margin: 0;
    font-weight: 700;
    line-height: 20px;
    letter-spacing: -0.02em;
@@ -534,7 +534,7 @@
  }
 
  .breadcrumbs {
-  display: flex;
+   display: flex;
    margin: 0;
    padding: 0;
  }
@@ -630,14 +630,17 @@
    text-align: right;
  }
 
- .result-upload {
-  margin: 0;
+ .upload {
+   margin: 0;
    width: 760px;
+   text-align: center;
+ }
+
+ .result-upload {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 16px;
    line-height: 19px;
-   text-align: center;
    letter-spacing: 0.2em;
    text-transform: uppercase;
    color: #000000;
