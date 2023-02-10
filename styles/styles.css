@@ -67,7 +67,7 @@
 
  .header-index {
    width: 1160px;
-   margin: 0 auto;
+   margin: 40px auto 0;
    background-color: #FFE17F;
  }
 
@@ -80,14 +80,25 @@
    color: #000000;
  }
 
+ .logo-header {
+   height: 36px;
+   margin: -20px 0 30px;
+   padding: 0;
+   border: 0;
+ }
+
  .custom-menu {
    display: flex;
-   margin: 0;
+   margin: 0 0 30px 0;
    padding: 0;
  }
 
  .search {
-   margin-right: 26px;
+   display: flex;
+   justify-content: center;
+   max-width: 519px;
+   padding: 0;
+   margin: 0 26px 0 0;
    color: #000000;
    font-weight: 400;
    font-size: 16px;
@@ -96,6 +107,8 @@
 
  .search-name {
    width: 359px;
+   padding: 0;
+   margin: 0;
    font-family: 'Rubik', sans-serif;
    background-color: #FFE17F;
    font-weight: 400;
@@ -105,20 +118,27 @@
 
  .search-send {
    width: 160px;
+   padding: 10px 56px;
+   margin: 0;
+   border: none;
    background-color: #FFE17F;
    text-align: center;
+   font-size: 16px;
+   line-height: 20px;
  }
 
  .user {
    font-weight: 400;
    color: #000000;
    text-decoration: none;
+   margin: 5px 0;
  }
 
  .entry::before {
    content: url("../images/header/img-user.svg");
    background-repeat: no-repeat;
-   margin-right: 12px;
+   margin-right: 13px;
+   padding: 0 1px;
  }
 
  .entry {
@@ -139,7 +159,7 @@
  .basket::before {
    content: url("../images/header/basket.svg");
    background-repeat: no-repeat;
-   margin-right: 12px;
+   margin: 1.5px 12px 5.5px -3px;
  }
 
  /*header-navigation*/
@@ -491,8 +511,8 @@
  }
 
  .mailing-form {
-  display: flex;
-  justify-content: center;
+   display: flex;
+   justify-content: center;
    padding: 0;
    margin: 0;
  }
