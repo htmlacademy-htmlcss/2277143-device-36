@@ -255,7 +255,7 @@
    display: flex;
    flex-direction: column;
    width: 1440px;
-   margin: 0 auto;
+   margin: 62px auto 61px auto ;
    padding: 0;
  }
 
@@ -273,7 +273,6 @@
    justify-content: space-between;
  }
 
-
 .footer-info address {
    font-weight: 400;
    font-size: 16px;
@@ -282,6 +281,12 @@
    padding: 0;
    width: 239px;
 }
+
+.footer-info .footer-phone{
+  width: 175px;
+
+}
+
  .footer-services-list {
    display: flex;
    flex-wrap: wrap;
@@ -290,10 +295,6 @@
    list-style-type: none;
    margin: 0;
    padding: 0;
- }
-
- .footer-phone {
-   width: 175px;
  }
 
  .social {
@@ -312,29 +313,14 @@
    margin-right: 390px;
    padding: 0;
    list-style-type: none;
-   background-color: tomato;
+   justify-content: space-between;
  }
 
-.footer-social-item .footer-social-link{
+ .footer-social-list .footer-social-item {
   min-width: 40px;
   min-height: 40px;
 }
-/*
-.telegram{
-  padding: 14px 14px 15px 13px;
-  background-color: #FFE17F;
-}
 
-.youtube{
-  padding: 15px 12px 14px 12px;
-  background-color: aqua;
-}
-
-.twitter{
-  padding: 13px 12px 13px 13px;
-  background-color: #EBEBEB;
-}
-*/
  .page-footer {
    background-color: #444444;
    color: #FFFFFF;
@@ -343,8 +329,6 @@
  .page-footer a {
    color: #FFFFFF;
  }
-
-
 
 
  /*main-index.html*/
@@ -652,7 +636,7 @@
  .mailing-react {
    display: flex;
    padding: 0;
-   margin: 0 140px;
+   margin: 0 140px 56px 140px;
    justify-content: space-between;
  }
 
