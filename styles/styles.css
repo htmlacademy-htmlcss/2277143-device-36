@@ -166,6 +166,8 @@
 
  /*header-navigation*/
 
+
+
  .navigation-list {
    display: flex;
    flex-wrap: wrap;
@@ -487,6 +489,11 @@
    margin-bottom: 35px;
  }
 
+ .show-service-name{
+  display: block;
+  margin: 10px 0;
+ }
+
  .second-slider-pagination-item:last-child {
    margin-bottom: 0;
  }
@@ -513,6 +520,12 @@
 
  .services-name {
    margin-bottom: 34px;
+ }
+
+ .services-description{
+  max-width: 475px;
+  margin: 0;
+  padding: 0;
  }
 
  /*delivery*/
@@ -875,6 +888,8 @@
  }
 
  .upload {
+  border: 3px solid#E5E5E5;
+  border-style: ;
    margin: 0 0 44px 0;
    width: 760px;
    text-align: center;
@@ -908,6 +923,7 @@
 
  .result-pagination .result-pagination-item {
    padding: 25px;
+   line-height: 21px;
  }
 
  .numbers-pagination-list {
@@ -922,8 +938,12 @@
  }
 
  .numbers-pagination-list .result-pagination-item {
+  display: block;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
    margin: 0;
-   padding: 0;
+   padding: 10px;
  }
 
  .result-pagination-link {
