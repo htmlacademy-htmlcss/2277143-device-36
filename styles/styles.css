@@ -574,9 +574,11 @@
 
  .about-us-title {
    margin: 47px 0 90px 0;
+   padding: 0;
  }
 
  .about-us-info {
+  padding: 0;
    margin-bottom: 30px;
  }
 
@@ -630,6 +632,7 @@
 
  .open-time {
    margin-bottom: 30px;
+   padding: 0;
  }
 
  /*mailing*/
