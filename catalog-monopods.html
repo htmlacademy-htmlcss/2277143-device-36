@@ -10,7 +10,7 @@
 <body>
   <header class="header-index">
     <div class="page-header">
-      <a class="logo" href="index.html">
+      <a class="logo-header" href="index.html">
         <span class="visually-hidden">Сайт Девайс</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="145" height="36" fill="none">
           <path fill="#000"
@@ -84,7 +84,9 @@
       <section class="catalogs">
         <h2 class="visually-hidden">Каталог</h2>
         <div class="filters">
-          <span class="chois">Фильтр:</span>
+          <div class="name-of-forms">
+            <span class="chois">Фильтр:</span>
+          </div>
           <form class="filters-list" action="#" method="get">
             <fieldset class="first-filter">
               <legend class="filter-name">Стоимость</legend>
@@ -171,61 +173,73 @@
                 <a class="result-item-link" href="#">
                   <img class="result-image" src="images/catalog-monopods/results/user-selfie-stick.jpg" width="360"
                     height="380" alt="Любительская селфи-палка">
-                  <h3 class="result-title">Любительская селфи-палка</h3>
+                  <div class="result-item-info">
+                    <h3 class="result-title">Любительская селфи-палка</h3>
+                    <span class="result-price">500 ₽</span>
+                  </div>
                 </a>
-                <span class="result-price">500 ₽</span>
               </li>
               <li class="result-item">
                 <a class="result-item-link" href="#">
                   <img class="result-image" src="images/catalog-monopods/results/professional-selfie-stick.jpg"
                     width="360" height="380" alt="Профессиональная селфи-палка">
-                  <h3 class="result-title">Профессиональная селфи-палка </h3>
+                  <div class="result-item-info">
+                    <h3 class="result-title">Профессиональная селфи-палка </h3>
+                    <span class="result-price">1500 ₽</span>
+                  </div>
                 </a>
-                <span class="result-price">1500 ₽</span>
               </li>
               <li class="result-item">
                 <a class="result-item-link" href="#">
                   <img class="result-image" src="images/catalog-monopods/results/Unsinkable--selfie-stick.jpg"
                     width="360" height="380" alt="Непотопляемая селфи-палка">
-                  <h3 class="result-title">Непотопляемая селфи-палка</h3>
+                  <div class="result-item-info">
+                    <h3 class="result-title">Непотопляемая селфи-палка</h3>
+                    <span class="result-price">2500 ₽</span>
+                  </div>
                 </a>
-                <span class="result-price">2500 ₽</span>
               </li>
               <li class="result-item">
                 <a class="result-item-link" href="#">
                   <img class="rresult-image" src="images/catalog-monopods/results/followme-selfie-stick.jpg" width="360"
                     height="380" alt="Селфи-палка «Следуй за мной»">
-                  <h3 class="result-title">Селфи-палка «Следуй за мной»</h3>
+                  <div class="result-item-info">
+                    <h3 class="result-title">Селфи-палка «Следуй за мной»</h3>
+                    <span class="result-price">1500 ₽</span>
+                  </div>
                 </a>
-                <span class="result-price">1500 ₽</span>
               </li>
             </ul>
             <div class="upload">
               <a class="result-upload" href="#">Загрузить ещЁ</a>
             </div>
-            <ul class="result-pagination">
-              <li class="result-pagination-item">
+            <div class="result-pagination">
+              <div class="result-pagination-item">
                 <a class="result-pagination-link pagination-prev pagination-disabled control">Назад</a>
-              </li>
-              <li class="result-pagination-item">
-                <a class="result-pagination-link pagination-current">1</a>
-              </li>
-              <li class="result-pagination-item">
-                <a class="result-pagination-link" href="#">2</a>
-              </li>
-              <li class="result-pagination-item">
-                <a class="result-pagination-link" href="#">3</a>
-              </li>
-              <li class="result-pagination-item">
-                <a class="result-pagination-link" href="#">...</a>
-              </li>
-              <li class="result-pagination-item">
-                <a class="result-pagination-link" href="#">15</a>
-              </li>
-              <li class="result-pagination-item">
+              </div>
+              <div class="numbers-pagination">
+                <ul class="numbers-pagination-list">
+                  <li class="result-pagination-item">
+                    <a class="result-pagination-link pagination-current">1</a>
+                  </li>
+                  <li class="result-pagination-item">
+                    <a class="result-pagination-link" href="#">2</a>
+                  </li>
+                  <li class="result-pagination-item">
+                    <a class="result-pagination-link" href="#">3</a>
+                  </li>
+                  <li class="result-pagination-item">
+                    <a class="result-pagination-link" href="#">...</a>
+                  </li>
+                  <li class="result-pagination-item">
+                    <a class="result-pagination-link" href="#">15</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="result-pagination-item">
                 <a class="result-pagination-link pagination-next control" href="#">Вперёд</a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
