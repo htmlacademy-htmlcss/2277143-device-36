@@ -771,6 +771,7 @@
  }
 
  .second-filter-list {
+  list-style-type: none;
    margin: 0;
    padding: 0;
  }
@@ -781,6 +782,7 @@
  }
 
  .third-filter-list {
+  list-style-type: none;
    margin: 0;
    padding: 0;
  }
