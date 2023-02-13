@@ -260,10 +260,12 @@
    text-decoration: none;
    color: #000000;
  }
+
  /*footer*/
 
  .page-footer-container {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    width: 1440px;
    margin: 62px auto 61px auto;
@@ -443,6 +445,7 @@
 
  .group-product-list {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    margin: 0 140px 70px 140px;
    padding: 0;
@@ -471,6 +474,7 @@
 
  .second-slider-content {
    display: flex;
+   flex-wrap: wrap;
    margin: 0 140px;
    padding: 0;
  }
@@ -489,9 +493,9 @@
    margin-bottom: 35px;
  }
 
- .show-service-name{
-  display: block;
-  margin: 10px 0;
+ .show-service-name {
+   display: block;
+   margin: 10px 0;
  }
 
  .second-slider-pagination-item:last-child {
@@ -511,6 +515,7 @@
 
  .second-slider-item {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    flex-wrap: wrap;
    max-width: 729px;
@@ -522,10 +527,10 @@
    margin-bottom: 34px;
  }
 
- .services-description{
-  max-width: 475px;
-  margin: 0;
-  padding: 0;
+ .services-description {
+   max-width: 475px;
+   margin: 0;
+   padding: 0;
  }
 
  /*delivery*/
@@ -558,6 +563,7 @@
 
  .information {
    display: flex;
+   flex-wrap: wrap;
    margin: 0 140px 70px 140px;
    justify-content: space-between;
  }
@@ -630,6 +636,7 @@
 
  .mailing {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    margin: 0 auto;
    padding: 0;
@@ -655,6 +662,7 @@
 
  .mailing-react {
    display: flex;
+   flex-wrap: wrap;
    padding: 0;
    margin: 0 140px 56px 140px;
    justify-content: space-between;
@@ -662,6 +670,7 @@
 
  .mailing-form {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    padding: 0;
    margin: 0;
@@ -771,7 +780,7 @@
  }
 
  .second-filter-list {
-  list-style-type: none;
+   list-style-type: none;
    margin: 0;
    padding: 0;
  }
@@ -782,7 +791,7 @@
  }
 
  .third-filter-list {
-  list-style-type: none;
+   list-style-type: none;
    margin: 0;
    padding: 0;
  }
@@ -803,6 +812,7 @@
 
  .sorting {
    display: flex;
+   flex-wrap: wrap;
    margin: 0;
    display: 0;
  }
@@ -836,6 +846,7 @@
  }
 
  .chois-element {
+   font-size: 16px;
    font-weight: 400;
    line-height: 20px;
    color: #000000;
@@ -890,8 +901,8 @@
  }
 
  .upload {
-  border: 3px solid#E5E5E5;
-  border-style: ;
+   border: 3px solid#E5E5E5;
+   border-style: ;
    margin: 0 0 44px 0;
    width: 760px;
    text-align: center;
@@ -940,10 +951,10 @@
  }
 
  .numbers-pagination-list .result-pagination-item {
-  display: block;
-  box-sizing: border-box;
-  width: 40px;
-  height: 40px;
+   display: block;
+   box-sizing: border-box;
+   width: 40px;
+   height: 40px;
    margin: 0;
    padding: 10px;
  }
