@@ -938,23 +938,23 @@
    background-color: #EBEBEB;
  }
 
- .number {
+ .page-number {
    text-align: center;
    margin: 15.5px 0;
    width: 40px;
  }
 
- .prev {
+ .page-prev {
    margin-right: 145.5px;
-   padding: 25px;
  }
 
- .next {
+ .page-next {
    margin-left: 145.5px;
-   padding: 25px;
  }
 
  .control {
+   display: block;
+   padding: 25px;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 18px;
