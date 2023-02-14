@@ -267,21 +267,21 @@
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   width: 1440px;
+   width: 1160px;
    margin: 61px auto;
    padding: 0;
  }
 
  .footer-logo {
    height: 36px;
-   margin-left: 140px;
    margin-bottom: 35px;
  }
 
  .footer-info {
    display: flex;
    flex-wrap: wrap;
-   margin: 0 140px 47px 140px;
+   margin: 0;
+   margin-bottom: 47px;
    padding: 0;
    justify-content: space-between;
  }
@@ -309,10 +309,10 @@
    padding: 0;
  }
 
- .social {
+ .footer-social {
    display: flex;
    flex-wrap: wrap;
-   margin: 0 140px;
+   margin: 0;
    justify-content: end;
    padding: 0;
  }
@@ -761,14 +761,10 @@
  }
 
  .name-of-forms {
-   margin-top: 25px;
+  margin: 25px 0 25px 60px;
  }
 
- .catalogs .filters .chois {
-   margin: 25px 0 25px 60px;
- }
-
- .filters form {
+ .filters-list {
    margin-top: 47px;
    padding-left: 60px;
  }
@@ -938,7 +934,7 @@
    background-color: #EBEBEB;
  }
 
- .result-pagination .result-pagination-item {
+ .result-pagination-item {
    padding: 25px;
    line-height: 21px;
  }
