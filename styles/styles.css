@@ -898,7 +898,6 @@
 
  .upload {
    border: 3px solid#E5E5E5;
-   border-style: ;
    margin: 0 0 44px 0;
    width: 760px;
    text-align: center;
@@ -940,12 +939,9 @@
  }
 
  .number {
-   display: block;
    text-align: center;
    margin: 15.5px 0;
-   padding: 0;
    width: 40px;
-   height: 40px;
  }
 
  .prev {
