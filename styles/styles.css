@@ -98,7 +98,7 @@
  .search {
    display: flex;
    justify-content: center;
-   max-width: 519px;
+   width: 517px;
    padding: 0;
    margin: 0 26px 0 0;
    color: #000000;
@@ -401,7 +401,7 @@
  }
 
  .product-slogan {
-   max-width: 545px;
+   width: 545px;
    margin-bottom: 29px;
  }
 
@@ -518,7 +518,7 @@
    flex-wrap: wrap;
    flex-direction: column;
    flex-wrap: wrap;
-   max-width: 729px;
+   width: 729px;
    padding: 0;
    margin: 0;
  }
@@ -528,7 +528,7 @@
  }
 
  .services-description {
-   max-width: 475px;
+   width: 479px;
    margin: 0;
    padding: 0;
  }
@@ -708,7 +708,8 @@
  }
 
  .mailing-react span {
-   max-width: 165PX;
+  text-align: right;
+   width: 160PX;
  }
 
  /*main-catalog-monopods.html*/
@@ -886,7 +887,7 @@
  .result-title {
    padding: 0;
    margin: 0;
-   max-width: 226px;
+   width: 226px;
  }
 
  .result-item-link {
