@@ -414,8 +414,19 @@
 
  /*slider-table*/
 
- .product-details {
-   margin-bottom: 38px;
+ .product-details-quadro {
+  width: 305px;
+  margin-bottom: 38px;
+ }
+
+ .product-details-watch {
+  width: 165px;
+  margin-bottom: 38px;
+ }
+
+ .product-details-selfie {
+  width: 386px;
+  margin-bottom: 38px;
  }
 
  .details-index {
