@@ -766,7 +766,7 @@
    margin-left: 0 0 0 140px;
  }
 
- .name-of-forms {
+ .form-name {
    margin: 25px 0 25px 60px;
  }
 
@@ -775,28 +775,28 @@
    padding-left: 60px;
  }
 
- .first-filter {
+ .filter-price {
    padding: 0;
    margin: 0 0 35px 0;
  }
 
- .second-filter {
+ .filter-color {
    padding: 0;
    margin: 0 0 35px 0;
  }
 
- .second-filter-list {
+ .filter-color-list {
    list-style-type: none;
    margin: 0;
    padding: 0;
  }
 
- .third-filter {
+ .filter-bluetoot {
    padding: 0;
    margin: 0 0 35px 0;
  }
 
- .third-filter-list {
+ .filter-bluetoot-list {
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -806,7 +806,7 @@
    width: 840px;
  }
 
- .chois {
+ .selection-name {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 16px;
@@ -906,14 +906,14 @@
    text-align: right;
  }
 
- .upload {
+ .result-upload {
    border: 3px solid#E5E5E5;
    margin: 0 0 44px 0;
    width: 760px;
    text-align: center;
  }
 
- .result-upload {
+ .result-upload-link {
    display: block;
    margin: 18px 0;
    font-family: 'Raleway', sans-serif;
@@ -948,17 +948,17 @@
    background-color: #EBEBEB;
  }
 
- .page-number {
+ .result-page-number {
    text-align: center;
    margin: 15.5px 0;
    width: 40px;
  }
 
- .page-prev {
+ .result-page-prev {
    margin-right: 145.5px;
  }
 
- .page-next {
+ .result-page-next {
    margin-left: 145.5px;
  }
 
