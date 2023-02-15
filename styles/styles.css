@@ -438,7 +438,7 @@
    font-size: 16px;
  }
 
- .first-slider-pagination {
+ .presentation-pagination {
    display: flex;
    justify-content: center;
    padding: 0;
@@ -447,7 +447,7 @@
    list-style-type: none;
  }
 
- /*group-product*/
+ /*group-products*/
 
  .group-product-list {
    display: flex;
@@ -478,14 +478,14 @@
    margin-bottom: 70px;
  }
 
- .second-slider-content {
+ .services-slider {
    display: flex;
    flex-wrap: wrap;
    margin: 0 140px;
    padding: 0;
  }
 
- .second-slider-pagination {
+ .services-slider-pagination {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
@@ -495,7 +495,7 @@
    margin: 64px 116px 137px 0;
  }
 
- .second-slider-pagination-item {
+ .services-slider-pagination-item {
    margin-bottom: 35px;
  }
 
@@ -504,22 +504,22 @@
    margin: 10px 0;
  }
 
- .second-slider-pagination-item:last-child {
+ .services-slider-pagination-item:last-child {
    margin-bottom: 0;
  }
 
- .second-slider-page-current {
+ .services-slider-page-current {
    color: #FFE17F;
    background-color: #000000;
  }
 
- .second-slider {
+ .services-slider-list {
    list-style-type: none;
    padding: 0;
    margin: 0;
  }
 
- .second-slider-item {
+ .services-slider-item {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
@@ -541,7 +541,7 @@
 
  /*delivery*/
 
- .exclusive-product {
+ .exclusive-service {
    font-family: 'Raleway', sans-serif;
    font-style: normal;
    width: 1160px;
@@ -628,11 +628,11 @@
    font-weight: 400;
  }
 
- .address-info {
+ .contacts-address-info {
    margin-bottom: 30px;
  }
 
- .address-info a {
+ .contacts-address-info a {
    color: #444444;
  }
 
@@ -677,7 +677,7 @@
    justify-content: space-between;
  }
 
- .mailing-form {
+ .mailing-react-form {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -685,7 +685,7 @@
    margin: 0;
  }
 
- .mailing-email {
+ .mailing-react-email {
    width: 557px;
    margin: 0;
    padding: 0;
@@ -698,7 +698,7 @@
    color: #444444;
  }
 
- .mailing-form-send {
+ .mailing-react-send {
    width: 253px;
    margin: 0;
    padding: 0;
@@ -713,7 +713,7 @@
    color: #000000;
  }
 
- .mailing-react span {
+ .mailing-free {
    text-align: right;
    width: 160PX;
  }
