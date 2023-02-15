@@ -22,7 +22,6 @@
    font-display: swap;
  }
 
-
  html {
    height: 100%;
  }
@@ -415,16 +414,19 @@
 
  .presentation-table-quadro {
   width: 305px;
+  height: 72px;
   margin-bottom: 38px;
  }
 
  .presentation-table-watch {
   width: 165px;
+  height: 72px;
   margin-bottom: 38px;
  }
 
  .presentation-table-selfie {
   width: 386px;
+  height: 72px;
   margin-bottom: 38px;
  }
 
