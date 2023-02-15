@@ -10,7 +10,7 @@
 <body>
   <header class="header-index">
     <div class="page-header">
-      <a class="logo-header" href="index.html">
+      <a class="header-logo" href="index.html">
         <span class="visually-hidden">Сайт Девайс</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="145" height="36" fill="none">
           <path fill="#000"
@@ -18,19 +18,18 @@
           <path fill="#510094" d="M83.46 0v10.1L91.06 0h-7.6Z" />
         </svg>
       </a>
-      <div class="custom-menu">
-        <form class="search" action="#" method="post">
-          <input class="search-name" type="text" placeholder="Текст поиска" required>
-          <button class="search-send" type="submit">Найти</button>
+      <div class="header-menu">
+        <form class="header-search" action="#" method="post">
+          <input class="header-search-name" type="text" placeholder="Текст поиска" required>
+          <button class="header-search-send" type="submit">Найти</button>
         </form>
-        <a class="user entry" href="#">Войти</a>
-        <a class="user compare" href="#">Сравнить</a>
-        <a class="user basket" href="#">Корзина</a>
+        <a class="header-menu-button entry" href="#">Войти</a>
+        <a class="header-menu-button compare" href="#">Сравнить</a>
+        <a class="header-menu-button basket" href="#">Корзина</a>
       </div>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="catalog-products" href="#">Каталог товаров</a>
+          <li class="navigation-item"><a class="navigation-link" href="#">Каталог товаров</a>
           </li>
           <li class="navigation-item"><a class="navigation-link" href="#">Доставка</a>
           </li>
@@ -41,23 +40,22 @@
         </ul>
         <ul class="catalog-list">
           <li class="catalog-item">
-            <ul class="list-block">
-              <li class="list-block-item"><a class="navigation-link" href="#">Виртуальная реальность</a></li>
-              <li class="list-block-item"><a class="navigation-link" href="catalog-monopods.html">Моноподы для cелфи</a>
+            <ul class="catalog-block">
+              <li class="catalog-block-item"><a class="navigation-link" href="#">Виртуальная реальность</a></li>
+              <li class="catalog-block-item"><a class="navigation-link" href="catalog-monopods.html">Моноподы для cелфи</a>
               </li>
-              <li class="list-block-item"><a class="navigation-link" href="#">Экшн-камеры</a></li>
+              <li class="catalog-block-item"><a class="navigation-link" href="#">Экшн-камеры</a></li>
             </ul>
           </li>
           <li class="catalog-item">
-            <ul class="list-block">
-              <li class="list-block-item"><a class="navigation-link" href="#">Фитнес-браслеты</a></li>
-              <li class="list-block-item"><a class="navigation-link" href="#">Умные часы</a></li>
+            <ul class="catalog-block">
+              <li class="catalog-block-item"><a class="navigation-link" href="#">Фитнес-браслеты</a></li>
+              <li class="catalog-block-item"><a class="navigation-link" href="#">Умные часы</a></li>
             </ul>
           </li>
           <li class="catalog-item">
-            <ul class="list-block">
-              <li class="list-block-item">
-                <a class="navigation-link" href="#">Квадрокоптеры</a>
+            <ul class="catalog-block">
+              <li class="catalog-block-item"><a class="navigation-link" href="#">Квадрокоптеры</a>
               </li>
             </ul>
           </li>
@@ -216,7 +214,7 @@
             <div class="result-pagination">
               <ul class="result-pagination-list">
                 <li class="page-prev">
-                    <a class="result-pagination-link control pagination-disabled">Назад</a>
+                  <a class="result-pagination-link control pagination-disabled">Назад</a>
                 </li>
                 <li class="page-number">
                   <a class="result-pagination-link pagination-current">1</a>
