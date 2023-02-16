@@ -409,31 +409,38 @@
 
  /*slider-table*/
 
- .presentation-table-quadro {
-  width: 305px;
-  height: 72px;
-  margin-bottom: 38px;
- }
+.table{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 12px;
+}
 
- .presentation-table-watch {
-  width: 165px;
-  height: 72px;
-  margin-bottom: 38px;
- }
+.table-quadro {
+  grid-template-columns: auto auto;
+  width: 307px;
+}
 
- .presentation-table-selfie {
+.table-watch {
+  grid-template-columns: auto;
+  width: 155px;
+}
+
+.table-selfie {
+  grid-template-columns: auto auto auto;
   width: 386px;
-  height: 72px;
-  margin-bottom: 38px;
- }
+}
 
- .presentation-table-index {
+.table dd {
+  grid-row: 1 / 2;
+  margin: 0;
+}
+
+ .table-index {
    font-size: 36px;
    color: #000000;
-   padding-bottom: 12px;
  }
 
- .presentation-table-description {
+ .table-description {
    font-size: 16px;
  }
 
