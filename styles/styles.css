@@ -767,35 +767,33 @@
  .form-name {
    padding: 25px 0 25px 60px;
    line-height: 19px;
+   margin-bottom: 35px;
  }
 
  .filters-list {
-   margin-top: 35px;
-   padding-left: 60px;
+  display: grid;
+  margin: 0 60px;
+  gap: 35px;
  }
 
  .filter-price {
    padding: 0;
-   margin: 0 0 35px 0;
  }
 
  .filter-color {
    padding: 0;
-   margin: 0 0 35px 0;
  }
 
  .filter-color-list {
    list-style-type: none;
-   margin: 0;
    padding: 0;
  }
 
- .filter-bluetoot {
+ .filter-bluetooth {
    padding: 0;
-   margin: 0 0 35px 0;
  }
 
- .filter-bluetoot-list {
+ .filter-bluetooth-list {
    list-style-type: none;
    margin: 0;
    padding: 0;
