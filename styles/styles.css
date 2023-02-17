@@ -411,8 +411,7 @@
 
  .table {
    display: grid;
-   grid-column-gap: 20px;
-   grid-row-gap: 12px;
+   grid-gap: 12px 20px;
  }
 
  .table-quadro {
@@ -446,7 +445,7 @@
 
  .presentation-pagination {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    padding: 0;
    width: 76px;
    margin: 0 auto;
@@ -463,6 +462,10 @@
    padding: 0;
  }
 
+.group-product-item {
+   list-style-type: none;
+ }
+
  .group-product-link {
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
@@ -470,11 +473,6 @@
    letter-spacing: -0.02em;
    color: #000000;
    text-decoration: none;
- }
-
- .group-product-item {
-   list-style-type: none;
-   width: 160px;
  }
 
  /*services*/
@@ -503,6 +501,12 @@
 
  .services-slider-pagination-item {
    margin-bottom: 35px;
+   width: 160px;
+ }
+
+ .services-slider-page-current {
+   color: #FFE17F;
+   background-color: #000000;
  }
 
  .show-service-name {
@@ -512,11 +516,6 @@
 
  .services-slider-pagination-item:last-child {
    margin-bottom: 0;
- }
-
- .services-slider-page-current {
-   color: #FFE17F;
-   background-color: #000000;
  }
 
  .services-slider-list {
@@ -874,8 +873,7 @@
  .result-list {
    display: grid;
    grid-template-columns: 360px 360px;
-   row-gap: 44px;
-   column-gap: 40px;
+   grid-gap: 44px 40px;
    margin: 0 0 44px 0;
    padding: 0;
  }
