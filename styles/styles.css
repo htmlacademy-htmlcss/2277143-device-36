@@ -872,6 +872,11 @@
    list-style-type: none;
  }
 
+ .result-item-image {
+  width: 360px;
+  object-fit: cover;
+ }
+
  .result-item-info {
    display: flex;
    flex-wrap: wrap;
