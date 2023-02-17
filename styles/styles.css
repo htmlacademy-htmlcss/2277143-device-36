@@ -96,7 +96,7 @@
 
  .header-search {
     display: grid;
-    grid-template-columns: auto 160px;
+    grid-template-columns: 357px 160px;
     box-sizing: border-box;
    width: 517px;
    padding: 0;
@@ -680,16 +680,15 @@
  }
 
  .mailing-react-form {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+   display: grid;
+   grid-template-columns: 557px 253px;
+   box-sizing: border-box;
+   width: 810px;
    padding: 0;
    margin: 0;
  }
 
  .mailing-react-email {
-   width: 557px;
-   margin: 0;
    padding: 0;
    border: 0;
    font-family: 'Rubik', sans-serif;
@@ -701,8 +700,6 @@
  }
 
  .mailing-react-send {
-   width: 253px;
-   margin: 0;
    padding: 0;
    background-color: #F0F0F0;
    font-family: 'Raleway', sans-serif;
