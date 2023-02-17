@@ -768,11 +768,11 @@
  .filters {
    width: 320px;
    padding: 0;
-   margin-left: 0 0 0 140px;
  }
 
  .form-name {
-   margin: 25px 0 25px 60px;
+   margin: 25px 0
+   padding-left: 60px;
  }
 
  .filters-list {
