@@ -578,11 +578,12 @@
  }
 
  .about-us-title {
-   margin: 47px 0 90px 0;
+   margin: 40px 0 48px 0;
    padding: 0;
  }
 
  .about-us-info {
+  width: 497px;
    padding: 0;
    margin-bottom: 30px;
  }
@@ -609,11 +610,14 @@
  }
 
  .contacts-title {
-   margin: 47px 0 47px 0;
+   margin: 40px 0 47px 0;
+   padding: 0;
  }
 
  .contacts-info {
+  width: 498px;
    margin-bottom: 30px;
+   padding: 0;
  }
 
  .contacts h3 {
