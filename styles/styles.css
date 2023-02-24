@@ -108,8 +108,6 @@
  }
 
  .header-search-name {
-  background-image: url("../images/header/img-search.svg");
-  background-repeat: no-repeat;*
    padding: 0;
    font-family: 'Rubik', sans-serif;
    background-color: #FFE17F;
@@ -545,18 +543,19 @@
   display: flex;
   flex-wrap: wrap;
  }
-.first-part{
-  display: flex;
-  flex-wrap: wrap;
-}
 
  .services-slider-item {
+  position: relative;
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   width: 479px;
+   width: 729px;
    padding: 0;
    margin: 0;
+ }
+
+ .services-slider-item:first-of-type {
+   width: 694px;
  }
 
  .services-name {
@@ -569,10 +568,26 @@
    padding: 0;
  }
 
- .icon-delivery {
-  margin-left: 120px;
- }
+ .services-slider-item::after {
+  position: absolute;
+  right: 0;
+  content: url("../images/index/services/warranty.svg");
+  background-repeat: no-repeat;
+}
 
+.services-slider-item:first-of-type::after {
+  position: absolute;
+  right: 0;
+  content: url("../images/index/services/the-runnig-man.svg");
+  background-repeat: no-repeat;
+}
+
+.services-slider-item:last-of-type::after {
+  position: absolute;
+  right: 0;
+  content: url("../images/index/services/delivery-man.svg");
+  background-repeat: no-repeat;
+}
  /*delivery*/
 
  .exclusive-service {
