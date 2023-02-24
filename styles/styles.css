@@ -57,7 +57,7 @@
    width: 220px;
    z-index: -1;
    right: 0;
-   top: 4px;
+   top: 7px;
    content: " ";
    background-color: #FFE17F;
  }
@@ -65,13 +65,13 @@
  .about-us .button::after {
    width: 270px;
    left: 0;
-   top: center;
+   top: 7px;
  }
 
  .contacts .button::after {
    width: 260px;
    left: 0;
-   top: center;
+   top: 7px;
  }
 
 
@@ -218,7 +218,6 @@
    top: 0;
  }
 
-
  .navigation-item:nth-child(4n) {
    margin-right: 0;
  }
@@ -347,6 +346,7 @@
  }
 
  .footer-social-list {
+  position: relative;
    width: 150px;
    display: flex;
    flex-wrap: wrap;
@@ -355,6 +355,20 @@
    padding: 0;
    list-style-type: none;
    justify-content: space-between;
+ }
+
+ .footer-social-list::before {
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  background-color: #FFC700;;
+  content: " ";
+  left: -504px;
+  top: 16px;
+
+
+
+
  }
 
  .footer-social-list .footer-social-item {
@@ -624,7 +638,7 @@
    width: 160px;
    z-index: -1;
    right: 0;
-   top: 4px;
+   top: 7px;
    content: " ";
    background-color: #FFE17F;
  }
@@ -773,8 +787,18 @@
  }
 
  .about-us-title {
+  position: relative;
    margin: 40px 0 48px 0;
    padding: 0;
+ }
+
+ .about-us-title::before{
+  position: absolute;
+  width: 84px;
+  height: 7px;
+  background-color: #000000;
+  content: " ";
+  top: -47px;
  }
 
  .about-us-info {
@@ -785,20 +809,37 @@
 
  .about-us-list {
    margin: 0;
+   padding: 0;
    margin-bottom: 30px;
    font-weight: 700;
    line-height: 20px;
    letter-spacing: -0.02em;
    color: #000000;
+   list-style-type: none;
  }
 
  .about-us-item {
+  position: relative;
+  padding-left: 37.5px;
    margin-bottom: 19px;
+ }
+
+ .about-us-item::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #FFC700;
+  content: " ";
+  border-radius: 4px;
+  top: 6px;
+  left: 4.5px;
  }
 
  .about-us-item:nth-last-child {
    margin-bottom: 0;
  }
+
+
 
  .about-us-link {
    position: relative;
@@ -812,8 +853,17 @@
  }
 
  .contacts-title {
+  position: relative;
    margin: 40px 0 47px 0;
    padding: 0;
+ }
+ .contacts-title::before{
+  position: absolute;
+  width: 84px;
+  height: 7px;
+  background-color: #000000;
+  content: " ";
+  top: -47px;
  }
 
  .contacts-info {
@@ -889,6 +939,7 @@
  }
 
  .mailing-react-form {
+  border-bottom: 3px solid #C4C4C4;
    display: grid;
    grid-template-columns: 557px 253px;
    box-sizing: border-box;
@@ -909,6 +960,11 @@
  }
 
  .mailing-react-send {
+  border: none;
+  border-left: 3px solid #C4C4C4;
+  border-right: 3px solid #C4C4C4;
+  border-top: 3px solid #C4C4C4;
+  height: 54px;
    padding: 0;
    background-color: #F0F0F0;
    font-family: 'Raleway', sans-serif;
