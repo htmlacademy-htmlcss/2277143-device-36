@@ -611,6 +611,16 @@
    margin: 64px 116px 137px 0;
  }
 
+ .services-slider-pagination li:not(.services-slider-page-current)::after {
+   height: 8px;
+   width: 160px;
+   z-index: 1;
+   right: 0;
+   top: 35px;
+   content: " ";
+   background-color: #FFE17F;
+ }
+
  .services-slider-pagination-item {
    margin-bottom: 35px;
    width: 160px;
@@ -629,28 +639,7 @@
    position: relative;
    display: block;
    margin: 10px 0;
-   z-index: 0;
- }
-
- .show-service-name::after {
-   position: absolute;
-   height: 8px;
-   width: 160px;
-   z-index: -1;
-   right: 0;
-   top: 7px;
-   content: " ";
-   background-color: #FFE17F;
- }
-
- .services-slider-page-current .show-service-name::after {
-  display: block;
-   position: absolute;
-   height: 8px;
-   width: 160px;
-   z-index: -1;
-   content: " ";
-   background-color: #000000;
+   z-index: 2;
  }
 
  .services-slider-pagination-item:last-child {
@@ -978,8 +967,8 @@
  }
 
  .mailing-free {
-   text-align: right;
-   width: 160PX;
+   width: 160px;
+   align-self: center;
  }
 
  .mailing-free::before {
@@ -1008,7 +997,7 @@
  }
 
  .breadcrumbs-item {
-   margin-right: 36px;
+   margin-right: 16px;
  }
 
  .breadcrumbs-link {
@@ -1017,6 +1006,12 @@
    line-height: 20px;
    color: #000000;
    text-decoration: none;
+ }
+
+ .breadcrumbs li:not(:last-child)::after {
+  content: url("../images/catalog-monopods/breadcrumbs.svg");
+  background-repeat: no-repeat;
+  margin-left: 16px;
  }
 
  /*catalog*/
@@ -1033,6 +1028,10 @@
  .filters {
    width: 320px;
    padding: 0;
+ }
+
+ .fieldset{
+  border: none;
  }
 
  .form-name {
@@ -1091,6 +1090,10 @@
    margin: 0;
    padding: 0;
  }
+
+.sorting-type{
+  border: none;
+}
 
  .sorting span {
    padding: 0;
@@ -1200,7 +1203,8 @@
  .result-upload {
    border: 3px solid#E5E5E5;
    margin: 0 0 44px 0;
-   width: 760px;
+   width: 754px;
+   height: 50px;
    text-align: center;
  }
 
