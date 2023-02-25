@@ -561,7 +561,22 @@
    border: none;
    background-color: #FFFFFF;
  }
+ .slider-button:hover {
+  opacity: 0.6;
+ }
 
+ .slider-button:active{
+  opacity: 0.3;
+ }
+
+ .slider-button:focus {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+ }
+
+ .slider-button:disabled {
+  opacity: 0.1;
+}   
 
 
  .presentation {
