@@ -435,12 +435,6 @@
 
  /*presentation*/
 
-/*.slider-prev {
-  display: block;
-  background-image: url(../images/index/slider/img-prev-slide.svg);
-   background-size: 20px 60px;
-}*/
-
 .slider-button{
  border: none;
  background-color: #FFFFFF;
@@ -566,7 +560,10 @@
  }
 
  .group-product-link {
+  position: relative;
+  padding-top: 193px;
    display: block;
+   height: 60px;
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    line-height: 24px;
@@ -576,37 +573,37 @@
  }
 
  .group-product-link::before{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   content: url(../images/index/catalog/img-viruality.svg);
+   position: absolute;
+   background-image: url(../images/index/catalog/img-viruality.svg);
    background-repeat: no-repeat;
    background-color: #FFE17F;
+   background-position: center;
    width: 160px;
    height: 160px;
-   margin-bottom: 33px;
+   content: "";
+   top: 0px;
  }
+
  .monopods::before {
-  content: url(../images/index/catalog/img-monopods.svg);
-  align-items: end;
+  background-image: url(../images/index/catalog/img-monopods.svg);
+  background-position: bottom;
 }
 
 .action-camera::before{
-  content: url(../images/index/catalog/img-action-camera.svg);
+  background-image: url(../images/index/catalog/img-action-camera.svg);
 }
 
 .fitnes::before {
-  content: url(../images/index/catalog/img-fitness-bracelets.svg);
+  background-image: url(../images/index/catalog/img-fitness-bracelets.svg);
 }
 
 .whatch::before {
-  content: url(../images/index/catalog/img-smart-watchs.svg);
+  background-image: url(../images/index/catalog/img-smart-watchs.svg);
 }
 
-.quadcopterv::before {
-  content: url(../images/index/catalog/img-quadcopters.svg);
+.quadcopter::before {
+  background-image: url(../images/index/catalog/img-quadcopters.svg);
 }
-
  /*services*/
 
  .services {
