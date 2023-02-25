@@ -494,8 +494,6 @@
    outline-offset: 2px;
  }
 
-
-
  .footer-social {
    display: flex;
    flex-wrap: wrap;
@@ -561,8 +559,8 @@
  }
 
  .footer-social-link:focus {
-   outline: 2px solid #AF4FFF;
-   outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
  }
 
  .page-footer {
@@ -948,7 +946,6 @@
  }
 
  .exclusive-delivery {
-
    position: relative;
    padding: 0;
    display: block;
@@ -958,6 +955,20 @@
    color: #000000;
    font-size: 20px;
    height: 20px;
+ }
+
+ .exclusive-delivery:hover::before {
+  background-color: #FFC700;
+ }
+ .exclusive-delivery:hover::after {
+  opacity: 1;
+ }
+ .exclusive-delivery:active{
+  opacity: 0.3;
+ }
+
+ .exclusive-delivery:focus {
+  outline: 2px solid #AF4FFF;
  }
 
 
@@ -986,6 +997,7 @@
    background-color: rgba(220, 220, 220, 0.5);
    border-radius: 40px;
    content: url(../images/index/services/info.svg);
+   opacity: 0.3;
  }
 
  /*information*/
