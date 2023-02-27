@@ -188,13 +188,21 @@ body {
 }
 
 
-.header-search-label:focus-within { 
+.header-search-label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
   z-index: 1;
 }
 
 .header-search-name {
+  display: block;
   padding: auto;
   margin-left: 48px;
   margin-top: auto;
@@ -228,6 +236,17 @@ body {
   cursor: pointer;
 }
 
+.header-search-send:focus::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+} 
+
 .header-search-send:hover {
   background-color: #000000;
   color: #FFFFFF;
@@ -238,11 +257,7 @@ body {
   outline: none;
 }
 
-.header-search-send:focus{
-  outline: 2px solid #AF4FFF;
-  outline-offset: 2px;
-  z-index: 2;
-}
+
 
 .header-search-send:disabled {
   opacity: 0.3;
@@ -504,7 +519,6 @@ body {
   opacity: 0.3;
 }
 
-
 .footer-phone-number:focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
@@ -566,8 +580,7 @@ body {
   width: 80px;
   height: 7px;
   background-color: #FFC700;
-  ;
-  content: " ";
+  content: "";
   left: -504px;
   top: 16px;
 }
