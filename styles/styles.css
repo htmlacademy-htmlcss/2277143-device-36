@@ -344,6 +344,9 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
+.catalog-link:focus::after {
+  opacity: 0.3;
+}
 
 .catalog-link:active::after,
 .catalog-link:hover::after {
