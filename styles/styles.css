@@ -162,67 +162,61 @@ body {
   padding: 0;
 }
 
+  
 .header-search {
   position: relative;
-  display: grid;
-  grid-template-columns: 359px 160px;
-  box-sizing: border-box;
+  display: flex;
+  box-sizing: content-box;
   width: 517px;
+  height: 40px;
   padding: 0;
   margin: 0 26px 0 0;
   color: #000000;
-  font-weight: 359px;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header-search-label {
-  position: relative;
-  border: 2px solid #000000;
-  border-radius: 50px 0 0 50px;
-  background-image: url(../images/header/img-search.svg);
-  background-repeat: no-repeat;
-  background-position: top 12px left 16px;
-  background-size: 16px 16px;
-  padding-top: 10px;
-}
-
-
-.header-search-label::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: -2px;
-  left: -2px;
-  outline: none;
-  outline: 2px solid #AF4FFF;
-  outline-offset: 2px;
-  z-index: 1;
-}
-
-.header-search-name {
-  display: block;
-  padding: auto;
-  margin-left: 48px;
-  margin-top: auto;
-  margin-bottom: auto;
-  border: none;
-  outline: none;
-  font-family: 'Rubik', sans-serif;
-  background-color: #FFE17F;
-  width: 300px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
 
-.header-search-name:disabled {
-  opacity: 0.3;
+.header-search-label {
+  display: block;
+  position: relative;
+  width: 359px;
 
 }
 
+.header-search-name {
+  padding: 0;
+  margin: 0;
+  padding-left: 48px;
+  display: block;
+  width: 307px;
+  height: 37px;
+  background-image: url(../images/header/img-search.svg);
+  background-repeat: no-repeat;
+  background-position: top 12px left 16px;
+  background-size: 16px 16px;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+  font-family: 'Rubik', sans-serif;
+  background-color: #FFE17F;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header-search-label:focus-within{
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+  z-index: 12;
+}
+.header-search-name:disabled {
+  opacity: 0.3;
+}
+
 .header-search-send {
+  margin: 0;
+  padding: 0;
+  width: 160px;
   position: relative;
   padding: 10px 56px;
   border: none;
@@ -234,15 +228,19 @@ body {
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+  outline: none;
 }
 
 .header-search-send:focus::after {
+  margin: 0;
+  padding: 0;
   content: "";
   position: absolute;
   top: -4px;
   right: -4px;
   bottom: -4px;
   left: -4px;
+  outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 } 
@@ -256,8 +254,6 @@ body {
   color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
-
-
 
 .header-search-send:disabled {
   opacity: 0.3;
