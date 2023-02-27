@@ -53,13 +53,20 @@
    text-decoration: none;
  }
 
+ .button span {
+  display: block;
+  margin-top: 10px;
+  padding: auto;
+ }
+
  .button::after {
    position: absolute;
    height: 8px;
    width: 100%;
    z-index: -1;
    right: 0;
-   top: 7px;
+   top: 50%;
+   transform: translateY(-50%);
    content: " ";
    background-color: #FFE17F;
  }
@@ -67,34 +74,31 @@
  .button:hover::after {
    background-color: #FFE17F;
    width: 100%;
-   height: 40px;
-   top: -30%;
+   height: 100%;
  }
 
  .button:active::after {
    background-color: #FFCC33;
+   height: 100%;
  }
 
- .button:focus::after {
+ .button:focus {
    outline: 2px solid #AF4FFF;
    outline-offset: 2px;
  }
+ .button:disabled {
+  opacity: 0.3;
+}
+ ;
 
  .button:disabled::after {
    height: 8px;
    top: 7px;
  }
 
- .about-us .button::after {
-   width: 270px;
-   left: 0;
-   top: 7px;
- }
-
  .contacts .button::after {
    width: 260px;
    left: 0;
-   top: 7px;
  }
 
  .visually-hidden {
@@ -129,19 +133,26 @@
  }
 
  .header-logo {
+  width: 145px;
    height: 36px;
    margin: -20px 0 30px;
    padding: 0;
    border: 0;
  }
 
- .header-logo:hover {
-   opacity: 0.6;
+ .header-logo:hover .letters{
+   fill: #545252;
  }
 
- .header-logo:active {
-   opacity: 0.3;
+ .header-logo:active .letters{
+  fill: #ada8a8;
  }
+
+ .header-logo:focus-visible{
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
 
  .header-menu {
    display: flex;
@@ -151,7 +162,6 @@
  }
 
  .header-search {
-
    display: grid;
    grid-template-columns: 357px 160px;
    box-sizing: border-box;
@@ -182,15 +192,10 @@
    line-height: 20px;
  }
 
+
  .header-search-name:disabled {
-   opacity: 0.3;
- }
-
- .header-search-name:focus {
-   outline: 2px solid #AF4FFF;
-   outline-offset: 2px;
- }
-
+  opacity: 0.3;
+}
  .header-search-send {
    padding: 10px 56px;
    border: none;
@@ -316,10 +321,6 @@
   opacity: 1;
  }
 
- .catalog-link:focus {
-  outline: 2px solid #AF4FFF;
-   outline-offset: 2px;
- }
 
  .catalog-link::after {
    position: absolute;
@@ -423,6 +424,7 @@
  }
 
  .footer-logo {
+  width: 145px;
    height: 36px;
    margin-bottom: 35px;
  }
@@ -681,6 +683,7 @@
  }
 
  .presentation-slider-more {
+  display: block;
    width: 210px;
    margin-bottom: 60px;
    padding: 0;
@@ -747,6 +750,19 @@
    list-style-type: none;
  }
 
+ .group-product-link:hover::before{
+  background-color: #FFC700;
+}
+
+.group-product-link:active{
+  opacity: 0.3;
+}
+
+.group-product-link:focus{
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
  .group-product-link {
    position: relative;
    padding-top: 193px;
@@ -771,6 +787,7 @@
    content: "";
    top: 0px;
  }
+
 
  .monopods::before {
    background-image: url(../images/index/catalog/img-monopods.svg);
@@ -838,10 +855,24 @@
    width: 160px;
    z-index: 0;
    right: 0;
-   top: 15px;
    content: " ";
    background-color: #FFE17F;
  }
+
+ .services-slider-pagination li:not(.services-slider-page-current):hover::after {
+  background-color: #FFE17F;
+   width: 100%;
+   height: 100%;
+ }
+
+ .services-slider-pagination li:not(.services-slider-page-current):active::after {
+    background-color: #FFCC33;
+    height: 100%;
+  }
+.services-slider-pagination li:not(.services-slider-page-current):focus{
+    background-color: #AF4FFF;
+  }
+ 
 
  .services-slider-pagination-item {
    margin-bottom: 35px;
@@ -856,7 +887,6 @@
    color: #FFE17F;
    background-color: #000000;
  }
-
 
  .services-slider-page-current span {
    text-align: center;
@@ -1078,7 +1108,10 @@
    position: relative;
    width: 270px;
    display: block;
-   text-align: center;
+ }
+
+ .about-us-link span {
+  padding-top: 10px;
  }
 
  .contacts {
@@ -1135,6 +1168,11 @@
    width: 260px;
    text-align: center;
  }
+
+ .contacts-open-link span{
+  padding-top: 10px;
+ }
+
 
  /*mailing*/
 
@@ -1399,8 +1437,7 @@
    width: 210px;
    z-index: -1;
    left: 0;
-   top: 7px;
-   content: " ";
+   content: "";
    background-color: #FFE17F;
  }
 
