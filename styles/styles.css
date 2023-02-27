@@ -1,3 +1,4 @@
+
  @font-face {
    font-family: 'Raleway';
    font-style: normal;
@@ -51,6 +52,7 @@
    text-transform: uppercase;
    color: #000000;
    text-decoration: none;
+   border: none;
  }
 
  .button span {
@@ -89,8 +91,6 @@
  .button:disabled {
   opacity: 0.3;
 }
- ;
-
  .button:disabled::after {
    height: 8px;
    top: 7px;
@@ -841,16 +841,17 @@
    width: 320px;
    height: 7px;
    background-color: #000000;
-   ;
    content: " ";
    right: -160px;
    top: 80px;
    transform: rotate(90deg);
  }
 
+.button-service {
+  width: 160px;
+}
 
-
- .services-slider-pagination li:not(.services-slider-page-current)::after {
+ .services-slider-pagination button:not(.services-slider-page-current)::after {
    height: 8px;
    width: 160px;
    z-index: 0;
@@ -859,33 +860,38 @@
    background-color: #FFE17F;
  }
 
- .services-slider-pagination li:not(.services-slider-page-current):hover::after {
+ .services-slider-pagination button:not(.services-slider-page-current):hover::after {
   background-color: #FFE17F;
    width: 100%;
    height: 100%;
  }
 
- .services-slider-pagination li:not(.services-slider-page-current):active::after {
+ .services-slider-pagination button:not(.services-slider-page-current):active::after {
     background-color: #FFCC33;
     height: 100%;
   }
-.services-slider-pagination li:not(.services-slider-page-current):focus{
-    background-color: #AF4FFF;
-  }
- 
 
+ 
  .services-slider-pagination-item {
    margin-bottom: 35px;
    width: 160px;
  }
 
  .services-slider-page-current {
-   align-self: flex-start;
    width: 280px;
    position: relative;
    display: block;
    color: #FFE17F;
    background-color: #000000;
+ }
+
+ .services-slider-page-current:hover span{
+  padding-left: 50px;
+ }
+
+
+ .services-slider-page-current:active span{
+  padding-left: 50px;
  }
 
  .services-slider-page-current span {
