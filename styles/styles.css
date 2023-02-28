@@ -1529,7 +1529,6 @@ body {
   background-color: #000000;
   content: " ";
   top: -12px;
-
 }
 
 .chois-element {
@@ -1570,10 +1569,6 @@ body {
   margin: 0 0 44px 0;
   padding: 0;
 }
-
-
-
-
 
 .result-item {
   position: relative;
@@ -1623,18 +1618,11 @@ body {
   outline:none;
 }
 
-
-
-
-
 .result-item:focus-within {
   outline: 2px solid #AF4FFF;
   outline-offset: 5px;
   transition: outline 0.s;
 }
-
-
-
 
 .result-item-image {
   width: 360px;
@@ -1724,8 +1712,6 @@ opacity: 0.3;
   background-color: #EBEBEB;
   line-height: 20px;
 }
-
-
 
 .result-pagination-link {
   text-decoration: none;
