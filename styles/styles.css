@@ -1394,6 +1394,19 @@ body {
   text-decoration: none;
 }
 
+.breadcrumbs-link:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-link:active {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link:focus{
+  outline: none;
+  border: 2px solid #AF4FFF;
+}
+
 .breadcrumbs li:not(:last-child)::after {
   content: url("../images/catalog-monopods/breadcrumbs.svg");
   background-repeat: no-repeat;
@@ -1596,17 +1609,18 @@ body {
 }
 
 .result-upload {
-  border: 3px solid#E5E5E5;
   margin: 0 0 44px 0;
   width: 754px;
   height: 50px;
   text-align: center;
+  padding: 0;
 }
 
 .result-upload-link {
   display: block;
-  margin: 18px 0;
+  border: 3px solid#E5E5E5;
   font-family: 'Raleway', sans-serif;
+  height: 100%;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
@@ -1614,6 +1628,28 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+}
+.result-upload-link:hover {
+  border: 3px solid #000000;
+}
+
+.result-upload-link:active {
+  opacity: .3;
+}
+
+.result-upload-link:focus {
+  outline: none;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
+.result-upload-link:disabled{    
+opacity: 0.3;
+} 
+
+.result-upload-link span{
+  display: inline-block;
+  margin-top: 18px;
 }
 
 /*padination*/
