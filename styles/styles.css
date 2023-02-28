@@ -149,11 +149,10 @@ body {
   fill: #ada8a8;
 }
 
-.header-logo:focus-visible {
+.header-logo:focus svg{
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
-
 
 .header-menu {
   display: flex;
@@ -162,7 +161,7 @@ body {
   padding: 0;
 }
 
-  
+
 .header-search {
   position: relative;
   display: flex;
@@ -483,6 +482,11 @@ body {
 
 .footer-logo:active {
   opacity: 0.3;
+}
+
+.header-logo:focus {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
 }
 
 .footer-info {
@@ -1072,6 +1076,7 @@ body {
 
 .exclusive-delivery:focus {
   outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
 }
 
 
@@ -1295,6 +1300,21 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #444444;
+}
+
+.mailing-react-email:hover {
+  background-color: #DCDCDC;
+}
+
+.mailing-react-email:focus {
+  outline: none;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+  z-index: 1;
+}
+
+.mailing-react-email:disabled {
+  opacity: 0.3;
 }
 
 .mailing-react-send {
