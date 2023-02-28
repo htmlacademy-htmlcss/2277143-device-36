@@ -1597,7 +1597,6 @@ body {
   margin-top: 7px;
   content: " ";
   background-color: #FFE17F;
-
 }
 
 .result-item:hover div{
@@ -1609,6 +1608,18 @@ body {
 .result-item:hover span{
   z-index: 1;
 }
+
+.result-item:active div{
+  opacity: .8;
+}
+.result-item:active img{
+  opacity: .8;
+}
+.result-item:active span::after{
+  background-color: #FFC700;
+}
+
+
 
 
 
