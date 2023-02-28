@@ -957,6 +957,10 @@ body {
   padding-left: 50px;
 }
 
+.services-slider-page-current:focus span {
+  padding-left: 50px;
+}
+
 .services-slider-page-current span {
   text-align: center;
   width: 160px;
@@ -1333,6 +1337,26 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+}
+
+.mailing-react-send:hover {
+color:#F0F0F0;
+background-color: #000000;
+border: none;
+}
+
+.mailing-react-send:active {
+  color: rgb(255, 255, 255, 0.3);;
+}
+
+.mailing-react-send:focus {
+  outline: none;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
+.mailing-react-send:disabled {
+  opacity: 0.3;
 }
 
 .mailing-free {
