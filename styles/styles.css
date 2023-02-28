@@ -1619,8 +1619,19 @@ body {
   background-color: #FFC700;
 }
 
+.result-item-link:focus-visible {
+  outline:none;
+}
 
 
+
+
+
+.result-item:focus-within {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 5px;
+  transition: outline 0.s;
+}
 
 
 
