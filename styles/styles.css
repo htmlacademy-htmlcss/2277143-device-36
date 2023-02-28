@@ -546,7 +546,6 @@ body {
   border-bottom: 2px solid #FFC700;
 }
 
-
 .footer-services-list .navigation-link:active {
   opacity: 0.3;
 }
@@ -555,7 +554,6 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
-
 
 .footer-social {
   display: flex;
@@ -692,7 +690,6 @@ body {
 .slider-button:disabled {
   opacity: 0.1;
 }
-
 
 .presentation {
   margin-bottom: 70px;
@@ -852,7 +849,6 @@ body {
   top: 0px;
 }
 
-
 .monopods::before {
   background-image: url(../images/index/catalog/img-monopods.svg);
   background-position: bottom;
@@ -899,7 +895,6 @@ body {
   margin: 64px 116px 137px 0;
 }
 
-
 .services-slider-pagination::after {
   position: absolute;
   width: 320px;
@@ -935,7 +930,6 @@ body {
   height: 100%;
 }
 
-
 .services-slider-pagination-item {
   margin-bottom: 35px;
   width: 160px;
@@ -952,7 +946,6 @@ body {
 .services-slider-page-current:hover span {
   padding-left: 50px;
 }
-
 
 .services-slider-page-current:active span {
   padding-left: 50px;
@@ -1083,7 +1076,6 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
-
 
 .exclusive-delivery::before {
   display: flex;
@@ -1247,7 +1239,6 @@ body {
 .contacts-open-link span {
   padding-top: 10px;
 }
-
 
 /*mailing*/
 
