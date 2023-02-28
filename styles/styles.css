@@ -149,7 +149,7 @@ body {
   fill: #ada8a8;
 }
 
-.header-logo:focus svg{
+.header-logo:focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
@@ -180,7 +180,6 @@ body {
   display: block;
   position: relative;
   width: 359px;
-
 }
 
 .header-search-name {
@@ -474,6 +473,7 @@ body {
   width: 145px;
   height: 36px;
   margin-bottom: 35px;
+  outline: none;
 }
 
 .footer-logo:hover {
@@ -484,7 +484,7 @@ body {
   opacity: 0.3;
 }
 
-.header-logo:focus {
+.footer-logo-link:focus{  
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
