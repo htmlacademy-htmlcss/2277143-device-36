@@ -670,8 +670,12 @@ body {
 /*presentation*/
 
 .slider-button {
+  position: relative;
   border: none;
   background-color: #FFFFFF;
+  width: 20px;
+  height: 60px;
+  cursor: pointer;
 }
 
 .slider-button:hover {
@@ -681,12 +685,26 @@ body {
 .slider-button:active {
   opacity: 0.3;
 }
+.slider-button:focus-visible {
+  outline: none;
+}
+.slider-button:focus::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 60px;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+  top: 0;
+  left: 4px;
+}
 
-.slider-button:focus {
+
+/*.slider-button:focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
-
+*/
 .slider-button:disabled {
   opacity: 0.1;
 }
@@ -795,6 +813,11 @@ body {
   margin: 0 auto;
   list-style-type: none;
 }
+/*
+.resentation-pagination-item-show .show-slide {
+  outline: 20px solid #AF4FFF;
+  outline-offset: 20px;
+}*/
 
 /*group-products*/
 
