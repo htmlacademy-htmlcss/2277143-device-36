@@ -235,10 +235,10 @@ body {
   padding: 0;
   content: "";
   position: absolute;
-  top: -4px;
-  right: -4px;
-  bottom: -4px;
-  left: -4px;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
   outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
@@ -669,6 +669,17 @@ body {
 
 /*presentation*/
 
+.slider-wrapper{
+  position: relative;
+}
+
+.slider-control {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: traslateY(-50%);
+}
+
 .slider-button {
   position: relative;
   border: none;
@@ -727,6 +738,7 @@ body {
 }
 
 .presentation-slider {
+  display: block;
   margin: 0;
   padding: 0;
 }
@@ -806,6 +818,8 @@ body {
   font-size: 16px;
 }
 
+/*presentation-pagination*/
+
 .presentation-pagination {
   display: flex;
   justify-content: space-between;
@@ -845,8 +859,9 @@ body {
   height: 16px;
   width: 16px;
   content: "";
-  top: -45%;
-  left: -45%;
+  top: -50%;
+  left: -50%;
+  transform: traslateY(-250%);
   outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
