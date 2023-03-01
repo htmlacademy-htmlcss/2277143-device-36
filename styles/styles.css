@@ -674,10 +674,14 @@ body {
 }
 
 .slider-control {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
-  top: 50%;
-  width: 100%;
+  margin: 0 140px;
+  top: 175px;
+  width: 40%;
   transform: traslateY(-50%);
+  
 }
 
 .slider-button {
