@@ -1409,6 +1409,10 @@ color: #ffffff;
   z-index: 1;
 }
 
+.mailing-react-email:focus:invalid{
+  border: 2px solid #FF3D3D;
+}
+
 .mailing-react-email:disabled {
   opacity: 0.3;
 }
