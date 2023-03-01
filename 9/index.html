@@ -72,48 +72,53 @@
       <h1 class="visually-hidden">Магазин Девайс</h1>
       <section class="presentation">
         <h2 class="visually-hidden">Продукция</h2>
-        <button class="slider-button slider-prev" type="button">
-          <svg class="prev-img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20"
-            height="60" fill="none">
-            <path fill="#000" d="M20 60h-3.5L0 30 16.5 0H20L3.8 30 20 60Z" />
-          </svg>
-          <span class="visually-hidden">Предыдущий слайд</span>
-        </button>
-        <button class="slider-button slider-next" type="button">
-          <svg class="next-img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20"
-            height="60" fill="none">
-            <path fill="#000" d="M0 0h3.5L20 30 3.5 60H0l16.2-30L0 0Z" />
-          </svg>
-          <span class="visually-hidden">Следующий слайд</span>
-        </button>
-        <ol class="presentation-slider">
-          <li class="presentation-slider-item">
-            <div class="presentation-slider-img">
-              <img class="product-image" src="images/index/slider/img-quadcopter.png" width="560" height="560"
-                alt="Квадрокоптер">
-            </div>
-            <div class="presentation-slider-feature">
-              <b class="large-name presentation-slider-slogan">Порхает как бабочка, жалит как пчела!</b>
-              <p class="description presentation-slider-description">Этот обычный, на первый взгляд, квадрокоптер
-                оснащен мощным
-                лазером, замаскированным под стандартную камеру.</p>
-              <a class="button presentation-slider-more" href="#">
-                <span>Подробнее</span>
-              </a>
-              <dl class="table table-quadro description">
-                <dt class="table-description">Дальность полета</dt>
-                <dd class="table-index">800 м</dd>
-                <dt class="table-description">Радиус поражения</dt>
-                <dd class="table-index">50 м</dd>
-              </dl>
-            </div>
-          </li>
-          <li class="presentation-slider-item">
+        <div class="slider-wrapper">
+          <div class="slider-control">
+            <button class="slider-button slider-prev" type="button">
+              <svg class="prev-img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20"
+                height="60" fill="none">
+                <path fill="#000" d="M20 60h-3.5L0 30 16.5 0H20L3.8 30 20 60Z" />
+              </svg>
+              <span class="visually-hidden">Предыдущий слайд</span>
+            </button>
+            <button class="slider-button slider-next" type="button">
+              <svg class="next-img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20"
+                height="60" fill="none">
+                <path fill="#000" d="M0 0h3.5L20 30 3.5 60H0l16.2-30L0 0Z" />
+              </svg>
+              <span class="visually-hidden">Следующий слайд</span>
+            </button>
+          </div>
+          <ol class="presentation-slider">
+            <li class="presentation-slider-item">
+              <div class="presentation-slider-img">
+                <img class="product-image" src="images/index/slider/img-quadcopter.png" width="560" height="560"
+                  alt="Квадрокоптер">
+              </div>
+              <div class="presentation-slider-feature">
+                <span class="product-number">01</span>
+                <b class="large-name presentation-slider-slogan">Порхает как бабочка, жалит как пчела!</b>
+                <p class="description presentation-slider-description">Этот обычный, на первый взгляд, квадрокоптер
+                  оснащен мощным
+                  лазером, замаскированным под стандартную камеру.</p>
+                <a class="button presentation-slider-more" href="#">
+                  <span>Подробнее</span>
+                </a>
+                <dl class="table table-quadro description">
+                  <dt class="table-description">Дальность полета</dt>
+                  <dd class="table-index">800 м</dd>
+                  <dt class="table-description">Радиус поражения</dt>
+                  <dd class="table-index">50 м</dd>
+                </dl>
+              </div>
+            </li>
+            <!---<li class="presentation-slider-item">
             <div class="presentation-slider-img">
               <img class="product-image" src="images/index/slider/img-fitness-bracelet.png" width="560" height="560"
                 alt="Фитнес браслет">
             </div>
             <div class="presentation-slider-feature">
+              <span class="product-number">02</span>
               <b class="large-name presentation-slider-slogan">Худеем правильно!</b>
               <p class="description presentation-slider-description">Мотивирующие фитнес-браслеты помогут найти в себе
                 силы не
@@ -131,6 +136,7 @@
                 alt="Монопод для селфи">
             </div>
             <div class="presentation-slider-feature">
+              <span class="product-number">03</span>
               <b class="large-name presentation-slider-slogan">Делай селфи, как Бен Стиллер!</b>
               <p class="description presentation-slider-description">Самая длинная палка для селфи доступна в нашем
                 магазине. Восемь
@@ -145,28 +151,26 @@
                 <dd class="table-index">Карбон</dd>
               </dl>
             </div>
-          </li>
-        </ol>
-        <ul class="presentation-pagination">
-          <li class="presentation-pagination-item">
-            <label class="presentation-pagination-item-show">
-              <input class="show-slide" type="radio" name="slide" checked>
-              <span class="visually-hidden">первый слайд</span>
-            </label>
-          </li>
-          <li class="presentation-pagination-item">
-            <label class="presentation-pagination-item-show">
-              <input class="show-slide" type="radio" name="slide">
-              <span class="visually-hidden">второй слайд</span>
-            </label>
-          </li>
-          <li class="presentation-pagination-item">
-            <label class="presentation-pagination-item-show">
-              <input class="show-slide" type="radio" name="slide">
-              <span class="visually-hidden">третий слайд</span>
-            </label>
-          </li>
-        </ul>
+          </li> --->
+          </ol>
+          <ol class="presentation-pagination">
+            <li class="presentation-pagination-item">
+              <button class="presentation-pagination-button presentation-pagination-current" type="button">
+                <span class="visually-hidden">первый слайд</span>
+              </button>
+            </li>
+            <li class="presentation-pagination-item">
+              <button class="presentation-pagination-button" type="button">
+                <span class="visually-hidden">второй слайд</span>
+              </button>
+            </li>
+            <li class="presentation-pagination-item">
+              <button class="presentation-pagination-button" type="button">
+                <span class="visually-hidden">третий слайд</span>
+              </button>
+            </li>
+          </ol>
+        </div>
       </section>
       <section class="group-product">
         <h2 class="visually-hidden">Каталог</h2>
@@ -219,7 +223,7 @@
                 совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж
               </p>
             </li>
-            <li class="services-slider-item">
+            <!--- <li class="services-slider-item">
               <b class="large-name services-name">Гарантия</b>
               <p class="description services-description">Если из-за возгорания купленного у нас товара у вас сгорит
                 дом
@@ -231,7 +235,7 @@
               <p class="description services-description">Залезть в долговую яму стало проще! Кредитные консультанты
                 подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.
               </p>
-            </li>
+            </li> --->
           </ol>
         </div>
       </section>
