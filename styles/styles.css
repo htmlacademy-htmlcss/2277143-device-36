@@ -836,6 +836,10 @@ body {
   opacity: 0.3;
 }
 
+.presentation-pagination-button:focus-visible {
+  outline: none;
+}
+
 .presentation-pagination-button:focus::after {
   position: absolute;
   height: 16px;
