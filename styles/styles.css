@@ -1453,13 +1453,16 @@ color: #ffffff;
 
 .mailing-react-send:active {
   color: rgb(255, 255, 255, 0.3);
-  ;
 }
 
 .mailing-react-send:focus {
   outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
+}
+
+.mailing-react-send:focus:active {
+  outline: none;
 }
 
 .mailing-react-send:disabled {
