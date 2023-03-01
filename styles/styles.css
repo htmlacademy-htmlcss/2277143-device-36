@@ -193,6 +193,7 @@ body {
   background-repeat: no-repeat;
   background-position: top 12px left 16px;
   background-size: 16px 16px;
+  border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
   outline: none;
   font-family: 'Rubik', sans-serif;
@@ -205,7 +206,7 @@ body {
 .header-search-label:focus-within {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
-  z-index: 12;
+  z-index: 1;
 }
 
 .header-search-name:disabled {
