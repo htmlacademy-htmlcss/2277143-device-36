@@ -207,7 +207,6 @@ body {
   z-index: 1;
 }
 
-
 .header-search-label:focus-within {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
@@ -270,7 +269,6 @@ opacity: 0.3;
 color: #000000;
 background-color: #FFE17F;
 }
-
 
 .header-menu-button {
   font-weight: 400;
@@ -1426,6 +1424,7 @@ color: #ffffff;
 
 .mailing-react-email:disabled {
   opacity: 0.3;
+  background-color: #F0F0F0;
 }
 
 .mailing-react-send {
@@ -1465,6 +1464,11 @@ color: #ffffff;
 
 .mailing-react-send:disabled {
   opacity: 0.3;
+  color: #000000;
+  background-color: #F0F0F0;
+  border-left: 3px solid #C4C4C4;
+  border-right: 3px solid #C4C4C4;
+  border-top: 3px solid #C4C4C4;
 }
 
 .mailing-free {
