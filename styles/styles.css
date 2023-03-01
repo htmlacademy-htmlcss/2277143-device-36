@@ -848,6 +848,7 @@ color: #ffffff;
   width: 76px;
   margin: 0 auto;
   list-style-type: none;
+  line-height: 12px;
 }
 
 .presentation-pagination-button{
@@ -899,7 +900,7 @@ color: #ffffff;
   display: grid;
   grid-template-columns: repeat(6, 160px);
   column-gap: 40px;
-  margin: 0 140px 70px 140px;
+  margin: 0 140px 172px 140px;
   padding: 0;
 }
 
@@ -971,6 +972,7 @@ color: #ffffff;
 .services {
   background-color: #F0F0F0;
   margin-bottom: 70px;
+  height: 290px;
 }
 
 .services-slider {
@@ -988,7 +990,7 @@ color: #ffffff;
   width: 280px;
   list-style-type: none;
   padding: 0;
-  margin: 64px 116px 137px 0;
+  margin: -40px 116px 137px 0;
 }
 
 .services-slider-pagination::after {
@@ -1090,6 +1092,7 @@ color: #ffffff;
   width: 729px;
   padding: 0;
   margin: 0;
+  margin-top: -30px;
 }
 
 .services-slider-item:first-of-type {
