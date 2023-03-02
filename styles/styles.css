@@ -230,7 +230,7 @@ body {
   z-index: 1;
 }
 
-.header-search-name:disabled{
+.header-search-name:disabled {
   opacity: 0.3;
 }
 
@@ -285,9 +285,9 @@ body {
 }
 
 .header-search-send:disabled {
-opacity: 0.3;
-color: #000000;
-background-color: #FFE17F;
+  opacity: 0.3;
+  color: #000000;
+  background-color: #FFE17F;
 }
 
 .header-menu-button {
@@ -611,7 +611,7 @@ background-color: #FFE17F;
   outline-offset: 2px;
 }
 
-.footer-services-list .navigation-link:focus:active{
+.footer-services-list .navigation-link:focus:active {
   outline: none;
 }
 
@@ -737,7 +737,7 @@ background-color: #FFE17F;
 
 /*presentation*/
 
-.slider-wrapper{
+.slider-wrapper {
   position: relative;
   margin-top: -150px;
 }
@@ -750,7 +750,7 @@ background-color: #FFE17F;
   top: 175px;
   width: 40%;
   transform: traslateY(-50%);
-  
+
 }
 
 .slider-button {
@@ -834,12 +834,12 @@ background-color: #FFE17F;
   flex-direction: row-reverse;
   margin-right: 50px;
   padding-bottom: 5px;
-font-family: 'Rubik', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 180px;
-line-height: 30px;
-color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 .presentation-slider-feature {
@@ -918,7 +918,7 @@ color: #ffffff;
   line-height: 12px;
 }
 
-.presentation-pagination-button{
+.presentation-pagination-button {
   position: relative;
   width: 12px;
   height: 12px;
@@ -959,7 +959,7 @@ color: #ffffff;
   outline: none;
 }
 
-.presentation-pagination-current{
+.presentation-pagination-current {
   background-color: #000000;
 }
 
@@ -1129,14 +1129,14 @@ color: #ffffff;
 }
 
 .services-slider-page-current:hover span {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .services-slider-page-current:active span {
   margin-left: 50px;
 }
 
-.services-slider-page-current.button:focus span{
+.services-slider-page-current.button:focus span {
   margin-left: 50px;
 }
 
@@ -1733,6 +1733,103 @@ color: #ffffff;
   top: -12px;
 }
 
+.range-scale {
+  position: relative;
+  height: 2px;
+  margin-bottom: 11px;
+  background-color: #DCDCDC;
+}
+
+.range-bar {
+  position: absolute;
+  height: 2px;
+  background-color: #000000;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border: 2px solid #242424;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #EBEBEB;
+}
+
+.range-toggle:hover {
+  border: 2px solid #C4C4C4;
+}
+
+.range-toggle:active {
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+
+.range-toggle:focus-visible {
+  outline: none;
+}
+
+.range-toggle:focus:after {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  content: "";
+  top: -3px;
+  left: -3px;
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
+.range-toggle:focus:active:after {
+  outline: none;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -9px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -9px;
+}
+
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-wraper-inputs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.range-input {
+  width: 40px;
+  padding: 0 2px;
+  font: inherit;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  appearance: textfield;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
 .chois-element {
   padding-left: 16px;
   font-size: 16px;
@@ -1773,7 +1870,7 @@ color: #ffffff;
   z-index: 40;
 }
 
-.new::after{
+.new::after {
   background-image: url(../images/catalog-monopods/NEW.svg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1815,7 +1912,7 @@ color: #ffffff;
   opacity: .6;
 }
 
-.result-item:hover .new::after{
+.result-item:hover .new::after {
   opacity: .6;
 }
 
@@ -1831,7 +1928,7 @@ color: #ffffff;
   opacity: .4;
 }
 
-.result-item:active .new::after{
+.result-item:active .new::after {
   opacity: .4;
 }
 
@@ -1927,14 +2024,15 @@ color: #ffffff;
 .result-upload-button:focus:active {
   outline: 3px solid #000000;
   outline-offset: -3px;
-} 
+}
 
 .result-upload-button:disabled {
   opacity: 0.3;
 }
 
-.result-upload-button:disabled.result-upload-button:hover{
-  outline: 3px solid #E5E5E5;;
+.result-upload-button:disabled.result-upload-button:hover {
+  outline: 3px solid #E5E5E5;
+  ;
   outline-offset: -3px;
 }
 

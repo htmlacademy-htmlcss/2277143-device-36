@@ -91,12 +91,39 @@
           <form class="filters-list" action="#" method="get">
             <fieldset class="filter-price">
               <legend class="filter-name">Стоимость</legend>
-              <label class="price" for="price-min">
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0px; width: 119px">
+                    <button type="button" class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button type="button" class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="range-wraper-inputs">
+
+                  <label class="catalog-filter-label">
+                    от <input class="range-input" type="number" value="50" name="min-price">
+                  </label>
+
+                  <label class="catalog-filter-label">
+                    до <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
+                  </label>
+                  
+                </div>
+
+
+
+             <!-- <label class="price" for="price-min">
                 <input class="price-input" type="range" id="price-min" name="price" min="0" max="8000" step="500">
               </label>
+
               <label class="price" for="price-max">
                 <input class="price-input" type="range" id="price-max" name="price" min="0" max="8000" step="500">
               </label>
+              -->
             </fieldset>
             <fieldset class="filter-color">
               <legend class="filter-name">Цвет</legend>
