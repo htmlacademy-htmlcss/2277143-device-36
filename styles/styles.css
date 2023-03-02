@@ -1970,6 +1970,10 @@ color: #ffffff;
   left: 0;
 }
 
+.result-pagination-link:focus:active::before {
+  outline: none;
+}
+
 .result-page-prev {
   margin-right: auto;
 }
