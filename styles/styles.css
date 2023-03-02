@@ -1881,8 +1881,7 @@ color: #ffffff;
 }
 
 .result-upload-button:hover {
-  outline: 3px solid #000000;
-  outline-offset: -2px;
+  border: 3px solid #000000;
 }
 
 .result-upload-button:active {
@@ -1895,13 +1894,18 @@ color: #ffffff;
   outline-offset: 2px;
 }
 
+.result-upload-button:focus:active {
+  outline: 3px solid #000000;
+  outline-offset: -3px;
+} 
+
 .result-upload-button:disabled {
   opacity: 0.3;
 }
 
 .result-upload-button:disabled.result-upload-button:hover{
   outline: 3px solid #E5E5E5;;
-  outline-offset: -2px;
+  outline-offset: -3px;
 }
 
 /*padination*/
@@ -2001,6 +2005,10 @@ color: #ffffff;
 .control:not(.pagination-disabled):focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
+}
+
+.control:not(.pagination-disabled):focus:active {
+  outline: none;
 }
 
 .pagination-disabled {
