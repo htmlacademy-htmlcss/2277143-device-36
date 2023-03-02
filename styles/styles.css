@@ -96,9 +96,16 @@ body {
   opacity: 0.3;
 }
 
+.button:disabled:active::after {
+  height: 8px;
+  background-color: #FFE17F;
+}
+
 .button:disabled:hover::after {
   height: 8px;
 }
+
+
 
 .contacts .button::after {
   width: 260px;
@@ -1360,7 +1367,7 @@ color: #ffffff;
 }
 
 .contacts-open-link span {
-  padding-top: 10px;
+  width: 100%;
 }
 
 /*mailing*/
@@ -1676,17 +1683,11 @@ color: #ffffff;
   display: block;
   position: relative;
   border: none;
-  z-index: 2;
+  z-index: 1;
 }
 
-.show-result::after {
-  position: absolute;
-  height: 8px;
-  width: 210px;
+.show-result.button:not(.market)::after {
   z-index: -1;
-  left: 0;
-  content: "";
-  background-color: #FFE17F;
 }
 
 /*result*/
@@ -1803,8 +1804,9 @@ color: #ffffff;
   padding: 0;
 }
 
-.result-upload-link {
+.result-upload-button {
   display: block;
+  width: 100%;
   border: 3px solid#E5E5E5;
   font-family: 'Raleway', sans-serif;
   height: 100%;
@@ -1814,30 +1816,32 @@ color: #ffffff;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  background-color: transparent;
   text-decoration: none;
 }
 
-.result-upload-link:hover {
-  border: 3px solid #000000;
+.result-upload-button:hover {
+  outline: 3px solid #000000;
+  outline-offset: -2px;
 }
 
-.result-upload-link:active {
+.result-upload-button:active {
   opacity: .3;
 }
 
-.result-upload-link:focus {
+.result-upload-button:focus {
   outline: none;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
 
-.result-upload-link:disabled {
+.result-upload-button:disabled {
   opacity: 0.3;
 }
 
-.result-upload-link span {
-  display: inline-block;
-  margin-top: 18px;
+.result-upload-button:disabled.result-upload-button:hover{
+  outline: 3px solid #E5E5E5;;
+  outline-offset: -2px;
 }
 
 /*padination*/
