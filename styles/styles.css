@@ -163,6 +163,10 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
+.header-logo:focus.header-logo:active {
+  outline: none;
+}
+
 
 .header-menu {
   display: flex;
@@ -273,6 +277,12 @@ body {
   color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
+
+.header-search-send:active.header-search-send:focus::after {
+  outline: none;
+}
+
+
 
 .header-search-send:disabled {
 opacity: 0.3;
