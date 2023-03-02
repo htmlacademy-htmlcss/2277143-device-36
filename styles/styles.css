@@ -165,6 +165,7 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
+
 .header-logo:focus.header-logo:active {
   outline: none;
 }
@@ -958,11 +959,9 @@ color: #ffffff;
   outline: none;
 }
 
-
 .presentation-pagination-current{
   background-color: #000000;
 }
-
 
 /*group-products*/
 
@@ -1819,7 +1818,6 @@ color: #ffffff;
 .result-item:hover .new::after{
   opacity: .6;
 }
-
 
 .result-item:hover span {
   z-index: 1;
