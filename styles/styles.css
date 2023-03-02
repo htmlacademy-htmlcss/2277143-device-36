@@ -282,8 +282,6 @@ body {
   outline: none;
 }
 
-
-
 .header-search-send:disabled {
 opacity: 0.3;
 color: #000000;
@@ -309,6 +307,11 @@ background-color: #FFE17F;
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
+
+.header-menu-button:active.header-menu-button:focus {
+  outline: none;
+}
+
 
 .entry::before {
   content: url("../images/header/img-user.svg");
@@ -370,6 +373,10 @@ background-color: #FFE17F;
   outline-offset: 2px;
 }
 
+.navigation-list .navigation-link:not(.catalog-link):focus.navigation-link:not(.catalog-link):active {
+  outline: none;
+}
+
 .navigation-list .navigation-item:first-child {
   margin-right: auto;
   width: 293px;
@@ -386,6 +393,10 @@ background-color: #FFE17F;
 .catalog-link:focus-within {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
+}
+
+.catalog-link:focus-within:active {
+  outline: none;
 }
 
 .catalog-link:focus::after {
