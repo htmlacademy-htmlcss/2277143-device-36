@@ -92,6 +92,10 @@ body {
   outline-offset: 2px;
 }
 
+.button:not(.market):focus:active {
+  outline: none;
+}
+
 .button:disabled {
   opacity: 0.3;
 }
@@ -468,6 +472,9 @@ background-color: #FFE17F;
   outline-offset: 2px;
 }
 
+.catalog-list .navigation-link:active.navigation-link:focus {
+  outline: none;
+}
 
 .catalog-block {
   margin: 0 0 27px 0;
@@ -760,10 +767,9 @@ background-color: #FFE17F;
   left: 4px;
 }
 
-/*.slider-button:focus {
-  outline: 2px solid #AF4FFF;
-  outline-offset: 2px;
-}*/
+.slider-button:focus:active::after {
+  outline: none;
+}
 
 .slider-button:disabled {
   opacity: 0.1;
