@@ -52,24 +52,28 @@ body {
   color: #000000;
   text-decoration: none;
   border: none;
+  background-color: #FFFFFF;
 }
 
 .button span {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
   display: block;
-  margin-top: 10px;
-  padding: auto;
+  z-index: 1;
 }
 
 .button:not(.market)::after {
   position: absolute;
   height: 8px;
   width: 100%;
-  z-index: -1;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
   content: " ";
   background-color: #FFE17F;
+  z-index: 0;
 }
 
 .button:not(.market):hover::after {
@@ -92,9 +96,8 @@ body {
   opacity: 0.3;
 }
 
-.button:disabled::after {
+.button:disabled:hover::after {
   height: 8px;
-  top: 7px;
 }
 
 .contacts .button::after {
