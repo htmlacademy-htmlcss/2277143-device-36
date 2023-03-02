@@ -21,8 +21,8 @@
       </a>
       <div class="header-menu">
         <form class="header-search" action="#" method="post">
-          <label class="header-search-label">
-            <input class="header-search-name" type="text" placeholder="Поиск по сайту" required>
+          <label class="header-search-label" for="search">
+            <input class="header-search-name" id="search" type="text" placeholder="Поиск по сайту" required>
           </label>
           <button class="header-search-send" type="submit">Найти</button>
         </form>
@@ -79,7 +79,7 @@
             <a class="breadcrumbs-link" href="#">Каталог товаров</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Моноподы для селфи</a>
+            <a class="breadcrumbs-link last-bread">Моноподы для селфи</a>
           </li>
         </ul>
       </header>
@@ -183,7 +183,7 @@
                 </a>
               </li>
               <li class="result-item">
-                <a class="result-item-link" href="#">
+                <a class="result-item-link new" href="#">
                   <img class="result-item-image" src="images/catalog-monopods/results/professional-selfie-stick.jpg"
                     width="360" height="380" alt="Профессиональная селфи-палка">
                   <div class="result-item-info">
@@ -217,9 +217,9 @@
               </li>
             </ul>
             <div class="result-upload">
-              <a class="result-upload-link" href="#">
+              <button class="result-upload-button" href="#">
                 <span>Загрузить ещЁ</span>
-              </a>
+              </button>
             </div>
             <div class="result-pagination">
               <ul class="result-pagination-list">
