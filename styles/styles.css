@@ -1595,13 +1595,17 @@ color: #ffffff;
   opacity: 0.6;
 }
 
-.breadcrumbs-link:active {
+.breadcrumbs-link:not(.last-bread):active {
   opacity: 0.3;
 }
 
 .breadcrumbs-link:focus {
   outline: none;
-  border: 2px solid #AF4FFF;
+  outline: 2px solid #AF4FFF;
+}
+
+.breadcrumbs-link:focus:active {
+  outline: none;
 }
 
 .breadcrumbs li:not(:last-child)::after {
