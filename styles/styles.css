@@ -136,6 +136,10 @@ body {
   background-color: #FFE17F;
 }
 
+.header-catalog {
+  height: 186px;
+}
+
 .page-header {
   display: flex;
   flex-wrap: wrap;
