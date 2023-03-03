@@ -1829,11 +1829,14 @@ body {
   color: #000000;
 }
 
+
+
 .sorting {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
   padding: 0;
+  margin: 20px 40px;
+  justify-content: space-between;
 }
 
 .sorting-type {
@@ -1842,21 +1845,37 @@ body {
 
 .sorting span {
   padding: 0;
-  margin: 25.5px 205.5px 25.5px 40px;
+  margin: 5px 0;
 }
 
 .sorting select {
-  margin: 20px 205.5px 20px 0;
-  height: 30px;
+  width: 141px;
+  padding: 0;
   font-weight: 400;
   color: #000000;
   background-color: #F0F0F0;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
 }
 
 .sorting-from-list {
+  padding: 0;
+  margin: 0;
+  width: 60px;
   display: flex;
+  justify-content: center;
   list-style-type: none;
 }
+
+.sorting-from-item {
+  width: 30px;
+  height: 30px;
+}
+
+
 
 /*filters*/
 
