@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -91,10 +92,7 @@
           <form class="filters-list" action="#" method="get">
             <fieldset class="filter-price">
               <legend class="filter-name">Стоимость</legend>
-
-
               <div class="range-scale">
-
                 <div class="range-bar" style="left: 0px; width: 119px">
                   <button type="button" class="range-toggle toggle-min">
                     <span class="visually-hidden">Изменить минимальную цену.</span>
@@ -117,45 +115,66 @@
             </fieldset>
             <fieldset class="filter-color">
               <legend class="filter-name">Цвет</legend>
+
+
+
               <ul class="filter-color-list">
                 <li class="filter-color-item chois-element">
                   <label class="color">
-                    <input class="color-input" type="checkbox" name="black" checked>Черный
+                    <input class="color-input visually-hidden" type="checkbox" name="black" checked>
+                    <span class="control-mark"></span>
+                    <span>Черный</span>
                   </label>
                 </li>
                 <li class="filter-color-item chois-element">
                   <label class="color">
-                    <input class="color-input" type="checkbox" name="white" checked>Белый
+                    <input class="color-input visually-hidden" type="checkbox" name="white" checked>
+                    <span class="control-mark"></span>
+                    <span>Белый</span>
                   </label>
                 </li>
                 <li class="filter-color-item chois-element">
                   <label class="color">
-                    <input class="color-input" type="checkbox" name="blue">Синий
+                    <input class="color-input visually-hidden" type="checkbox" name="blue" disabled>
+                    <span class="control-mark"></span>
+                    <span>Синий</span>
                   </label>
                 </li>
                 <li class="filter-color-item chois-element">
                   <label class="color">
-                    <input class="color-input" type="checkbox" name="red">Красный
+                    <input class="color-input visually-hidden" type="checkbox" name="red">
+                    <span class="control-mark"></span>
+                    <span>Красный</span>
                   </label>
                 </li>
                 <li class="filter-color-item chois-element">
                   <label class="color">
-                    <input class="color-input" type="checkbox" name="pink">Розовый
+                    <input class="color-input visually-hidden" type="checkbox" name="pink">
+                    <span class="control-mark"></span>
+                    <span>Розовый</span>
                   </label>
                 </li>
               </ul>
+
+
+
+
             </fieldset>
             <fieldset class="filter-bluetooth">
               <legend class="filter-name">Bluetooth</legend>
               <ul class="filter-bluetooth-list">
                 <li class="filter-bluetooth-item chois-element">
                   <label class="bluetooth">
-                    <input class="bluetooth-input" type="radio" name="availability" value="Yes" checked>Есть
+                    <input class="bluetooth-input visually-hidden" type="radio" name="availability" value="Yes" checked>
+                    <span class="control-mark"></span>
+                    <span>Есть</span>
                   </label>
                 </li>
                 <li class="filter-bluetooth-item chois-element">
                   <label class="bluetooth">
-                    <input class="bluetooth-input" type="radio" name="availability" value="No">Нет
+                    <input class="bluetooth-input visually-hidden" type="radio" name="availability" value="No">
+                    <span class="control-mark"></span>
+                    <span>Нет</span>
                   </label>
                 </li>
               </ul>

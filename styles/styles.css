@@ -1650,6 +1650,7 @@ body {
 
 .filter-color {
   padding: 0;
+  margin: 0;
   border: 0;
 }
 
@@ -1658,6 +1659,90 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.filter-color-item {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 17px;
+  line-height: 20px;
+}
+
+
+.color {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #CCCCCC;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
+.color:hover {
+  opacity: 0.6;
+}
+
+.color:active {
+  opacity: 0.3;
+}
+
+.color-input:disabled+.control-mark {
+  pointer-events: none;
+  cursor: pointer;
+  opacity: 0.1;
+}
+
+
+.color-input:disabled+.control-mark+span {
+  pointer-events: none;
+  cursor: pointer;
+  opacity: 0.1;
+}
+
+
+.color-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(../images/catalog-monopods/sorts-filtrs/black-mark.svg);
+}
+
+.color-input[type="checkbox"]:checked + .control-mark {
+  border: 2px solid #000000;
+  border-radius: 3px;
+}
+
+.color:focus-within .control-mark::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
+
+
+
 
 .filter-bluetooth {
   padding: 0;
@@ -1803,11 +1888,11 @@ body {
 
 .range-wraper-inputs {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   margin-left: -9px;
 }
 
-.range-wraper-inputs span{
+.range-wraper-inputs span {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
@@ -1819,12 +1904,12 @@ body {
   margin-right: 4px;
 }
 
-.catalog-filter-label{
+.catalog-filter-label {
   display: flex;
   justify-content: left;
 }
 
-.catalog-filter-label:first-child{
+.catalog-filter-label:first-child {
   margin-right: 25px;
 }
 
@@ -1843,27 +1928,21 @@ body {
   opacity: 0.3;
 }
 
-
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
 
-
-
-
-
-
-
-
-.chois-element {
-  padding-left: 16px;
+.chois-element span {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   color: #000000;
 }
+
+
+
 
 .show-result {
   display: block;
