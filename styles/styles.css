@@ -1707,7 +1707,7 @@ body {
   opacity: 0.1;
 }
 
-.color-input[type="checkbox"]:checked + .control-mark::before {
+.color-input[type="checkbox"]:checked+.control-mark::before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1719,12 +1719,12 @@ body {
   background-image: url(../images/catalog-monopods/sorts-filtrs/black-mark.svg);
 }
 
-.color-input[type="checkbox"]:checked + .control-mark {
+.color-input[type="checkbox"]:checked+.control-mark {
   border: 2px solid #000000;
   border-radius: 3px;
 }
 
-.color:focus-within .control-mark::after{
+.color:focus-within .control-mark::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -1778,7 +1778,7 @@ body {
   opacity: 0.1;
 }
 
-.bluetooth-input[type="radio"]:checked + .control-mark::before {
+.bluetooth-input[type="radio"]:checked+.control-mark::before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1791,11 +1791,11 @@ body {
   border-radius: 50%;
 }
 
-.bluetooth-input[type="radio"]:checked + .control-mark {
+.bluetooth-input[type="radio"]:checked+.control-mark {
   border-color: #000000;
 }
 
-.bluetooth:focus-within .control-mark::after{
+.bluetooth:focus-within .control-mark::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -1806,14 +1806,6 @@ body {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
 }
-
-
-
-
-
-
-
-
 
 .catalog-right-column {
   width: 840px;
@@ -1829,8 +1821,6 @@ body {
   color: #000000;
 }
 
-
-
 .sorting {
   display: flex;
   flex-wrap: wrap;
@@ -1841,6 +1831,11 @@ body {
 
 .sorting-type {
   border: none;
+}
+
+.sorting-type:focus-visible {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
 }
 
 .sorting span {
@@ -1855,10 +1850,10 @@ body {
   color: #000000;
   background-color: #F0F0F0;
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .sorting-from-list {
@@ -1870,12 +1865,49 @@ line-height: 30px;
   list-style-type: none;
 }
 
-.sorting-from-item {
+.sorting-from-element {
+  position: relative;
+  display: block;
   width: 30px;
   height: 30px;
 }
 
+.from-mark {
+  position: absolute;
+  background-image: url(../images/catalog-monopods/sorts-filtrs/sort-from-end.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .2;
+}
 
+.from-mark.from-start {
+  background-image: url(../images/catalog-monopods/sorts-filtrs/sort-from-start.svg);
+}
+
+.sorting-from-element:hover .from-mark {
+  opacity: 0.5;
+}
+
+.sorting-from-element:active .from-mark {
+  opacity: 1;
+}
+
+.sorting-from-element:focus-within::after {
+  position: absolute;
+  content: "";
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
 
 /*filters*/
 
@@ -1961,10 +1993,6 @@ line-height: 30px;
   right: -9px;
 }
 
-
-
-
-
 .range-wraper-inputs {
   display: flex;
   justify-content: flex-start;
@@ -2019,9 +2047,6 @@ line-height: 30px;
   line-height: 20px;
   color: #000000;
 }
-
-
-
 
 .show-result {
   display: block;
