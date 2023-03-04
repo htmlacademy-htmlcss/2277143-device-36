@@ -296,6 +296,24 @@ body {
   background-color: #FFE17F;
 }
 
+.user-list {
+  width: 497px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list-small{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-menu-button {
   font-weight: 400;
   color: #000000;
@@ -343,15 +361,15 @@ body {
 }
 
 .basket {
+  padding-left: 35px;
   position: relative;
-  width: 100px;
   text-align: right;
 }
 
 .basket::before {
   position: absolute;
-  left: -10px;
-  top: 5px;
+  left: 0;
+  top: 2px;
   content: url("../images/header/nasket+2.svg");
   background-repeat: no-repeat;
   margin-right: 12px;
@@ -377,6 +395,29 @@ body {
   font-size: 16px;
   line-height: 20px;
   align-items: center;
+  display: none;
+}
+
+
+.item-popover:focus-within .popover{
+  display: block;
+}
+
+
+
+
+.popover:before {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  top: -5px;
+  content: "";
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  transform: rotate(45deg);
 }
 
 .popover-close-button {
@@ -385,7 +426,6 @@ body {
   right: 77px;
   width: 100px;
   height: 30px;
-
   border: none;
 }
 
@@ -423,6 +463,33 @@ body {
 
 .popover-product {
 display: flex;
+width: 215px;
+text-decoration: none;
+}
+
+.popover-product p{
+ color: #FFFFFF;
+}
+
+.popover-product:hover {
+  opacity: 0.6;
+}
+
+.popover-product:active {
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.popover-product:focus-visible {
+  outline: none;
+}
+
+.popover-product:focus {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+.popover-product:active:focus {
+  outline: none;
 }
 
 .cart-item p {
