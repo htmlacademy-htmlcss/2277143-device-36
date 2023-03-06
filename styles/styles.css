@@ -53,6 +53,7 @@ body {
   text-decoration: none;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button span {
@@ -398,13 +399,9 @@ body {
   display: none;
 }
 
-
 .item-popover:focus-within .popover {
   display: block;
 }
-
-
-
 
 .popover:before {
   position: absolute;
@@ -534,7 +531,10 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+  cursor: pointer;
 }
+
+
 
 .total {
   display: flex;
@@ -563,6 +563,7 @@ body {
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .open-basket:hover {
@@ -1136,6 +1137,7 @@ body {
   width: 210px;
   margin-bottom: 50px;
   padding: 0;
+  cursor: pointer;
 }
 
 /*slider-table*/
@@ -1789,6 +1791,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  cursor: pointer;
 }
 
 .mailing-react-send:hover {
@@ -1945,6 +1948,7 @@ body {
   position: relative;
   display: block;
   padding-left: 36px;
+  cursor: pointer;
 }
 
 .control-mark {
@@ -2009,6 +2013,10 @@ body {
 .filter-bluetooth {
   padding: 0;
   border: 0;
+}
+
+.bluetooth{
+  cursor: pointer;
 }
 
 .filter-bluetooth-list {
@@ -2101,6 +2109,7 @@ body {
 
 .sorting-type {
   border: none;
+  cursor: pointer;
 }
 
 .sorting-type:focus-visible {
@@ -2140,6 +2149,7 @@ body {
   display: block;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .from-mark {
@@ -2309,6 +2319,7 @@ body {
   appearance: none;
   margin: 0;
 }
+
 
 .chois-element span {
   font-size: 16px;
@@ -2484,6 +2495,7 @@ body {
   color: #000000;
   background-color: transparent;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .result-upload-button:hover {
@@ -2640,10 +2652,10 @@ body {
   z-index: 1;
 }
 
-/*
+
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: relative;
