@@ -2795,14 +2795,14 @@ body {
   color: #000000;
 }
 
-.auth-form-field[id="auth-login"] {
+.name-modal {
   background-image: url(../images/modal/user-modal.svg);
   background-repeat: no-repeat;
   background-position-x: 326px;
   background-position-y: 24px;
 }
 
-.auth-form-field[id="auth-email"] {
+.email-modal {
   background-image: url(../images/modal/mail-modal.svg);
   background-repeat: no-repeat;
   background-position: right;
