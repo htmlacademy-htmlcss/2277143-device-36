@@ -2037,7 +2037,7 @@ body {
   border: 0;
 }
 
-.bluetooth{
+.bluetooth {
   cursor: pointer;
 }
 
@@ -2671,10 +2671,10 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: relative;
@@ -2715,6 +2715,10 @@ body {
 .modal-close-button:focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
+}
+
+.modal-close-button:focus:active {
+  outline: none;
 }
 
 .modal-content .large-name {
@@ -2876,6 +2880,10 @@ body {
   outline-offset: 2px;
 }
 
+.button-modal:focus:active {
+  outline: none;
+}
+
 .button-modal:disabled {
   opacity: 0.1;
   cursor: default;
@@ -2958,7 +2966,7 @@ body {
   display: none;
 }
 
-.tooltip-text:before{
+.tooltip-text:before {
   position: absolute;
   right: 22%;
   transform: translateX(-50%) rotate(45deg);
@@ -2970,11 +2978,13 @@ body {
   background-color: #000000;
   z-index: 1;
 }
-.tooltip-toggle:focus-within{
-outline: none;
+
+.tooltip-toggle:focus-within {
+  outline: none;
 }
-.tooltip-toggle:hover + .tooltip-text,
-.tooltip-toggle:focus + .tooltip-text {
+
+.tooltip-toggle:hover+.tooltip-text,
+.tooltip-toggle:focus+.tooltip-text {
   display: block;
 }
 
