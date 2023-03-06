@@ -177,7 +177,6 @@ body {
   outline: none;
 }
 
-
 .header-menu {
   position: relative;
   display: flex;
@@ -322,7 +321,6 @@ body {
   margin: 0;
 }
 
-
 .user-list-small {
   margin: 0;
   padding: 0;
@@ -354,7 +352,6 @@ body {
 .header-menu-button:active.header-menu-button:focus {
   outline: none;
 }
-
 
 .entry::before {
   content: url("../images/header/img-user.svg");
@@ -608,7 +605,6 @@ body {
   outline: none;
 }
 
-
 /*header-navigation*/
 
 .navigation-list {
@@ -701,8 +697,6 @@ body {
 .navigation .navigation-list .navigation-item:first-of-type {
   position: relative;
 }
-
-
 
 .navigation-item:nth-child(4n) {
   margin-right: 0;
@@ -1041,7 +1035,6 @@ body {
   top: 175px;
   width: 40%;
   transform: traslateY(-50%);
-
 }
 
 .slider-button {
@@ -2005,8 +1998,6 @@ body {
   opacity: 0.1;
 }
 
-
-
 .color-input[type="checkbox"]:checked+.control-mark::before {
   position: absolute;
   top: 50%;
@@ -2344,7 +2335,6 @@ body {
   margin: 0;
 }
 
-
 .chois-element span {
   font-size: 16px;
   font-weight: 400;
@@ -2397,7 +2387,6 @@ body {
   content: "";
   right: 27px;
   top: 27px;
-
 }
 
 .result-item .button {
@@ -2675,16 +2664,15 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
-/*
+
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: relative;
   margin: auto;
   background-color: #ffffff;
-
 }
 
 .modal-auth {
@@ -2822,7 +2810,6 @@ body {
   background-position-y: 24px;
 }
 
-
 .auth-form-field:nth-of-type(4) {
   margin-top: 50x;
   position: relative;
@@ -2856,8 +2843,6 @@ body {
 .mail-errore-popover+.small-text-modal {
   color: #FF3D3D;
 }
-
-
 
 .button-modal {
   position: absolute;
