@@ -1796,6 +1796,10 @@ body {
   background-color: #F0F0F0;
 }
 
+.mail-errore {
+  border: 2px solid #FF3D3D;
+}
+
 .mailing-react-send {
   border: none;
   border-left: 3px solid #C4C4C4;
@@ -2844,14 +2848,16 @@ body {
   cursor: default;
 }
 
-.auth-form-field:invalid {
+.mail-errore-popover {
   outline: 2px solid #FF3D3D;
   outline-offset: -2px;
 }
 
-.auth-form-field:invalid+.small-text-modal {
+.mail-errore-popover+.small-text-modal {
   color: #FF3D3D;
 }
+
+
 
 .button-modal {
   position: absolute;
