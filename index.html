@@ -294,9 +294,6 @@
       </section>
       <div class="exclusive-service">
         <a class="exclusive-delivery" href="#">Доставим редкий товар под заказ</a>
-
-          
-
       </div>
       <section class="information">
         <div class="about-us">
@@ -456,7 +453,19 @@
                 placeholder="В свободной форме">
             </p>
             <p class="field-group">
-              <label class="modal-title" for="auth-number">Количество:</label>
+              <span class="form-label form-label-icon">
+                <label class="modal-title" for="auth-number">Количество:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-product">
+                    <svg class="i-tooltip" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none">
+                      <circle cx="13" cy="13" r="13" fill="#FFE17F" />
+                      <path fill="#000" d="M14 7h-2v2h2V7ZM14 11h-2v8h2v-8Z" />
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label-product">Постараемся найти, сколько нужно. Привезём сколько получится по требованиям
+                    к провозу багажа.</span>
+                </span>
+              </span>
               <button type="button" class="button-modal min-product"></button>
               <input class="auth-form-field field input-numder" type="number" id="auth-number" name="auth-number"
                 placeholder="1">
