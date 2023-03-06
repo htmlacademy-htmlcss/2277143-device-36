@@ -99,6 +99,7 @@ body {
 
 .button:disabled {
   opacity: 0.3;
+  cursor: default;
 }
 
 .button:disabled:active::after {
@@ -239,6 +240,7 @@ body {
 
 .header-search-name:disabled {
   opacity: 0.3;
+  cursor: default;
 }
 
 .header-search-name:disabled,
@@ -292,6 +294,7 @@ body {
 }
 
 .header-search-send:disabled {
+  cursor: default;
   opacity: 0.3;
   color: #000000;
   background-color: #FFE17F;
@@ -306,6 +309,19 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.user-list-item:first-child {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list-item:last-child {
+  width: 235px;
+  padding: 0;
+  margin: 0;
+}
+
 
 .user-list-small {
   margin: 0;
@@ -343,12 +359,17 @@ body {
 .entry::before {
   content: url("../images/header/img-user.svg");
   background-repeat: no-repeat;
-  margin-right: 13px;
+  margin-right: 10px;
 }
 
 .entry {
   max-width: 230px;
   margin-right: auto;
+}
+
+.exit {
+  padding-left: 28px;
+  opacity: 0.3;
 }
 
 .compare::before {
@@ -358,7 +379,7 @@ body {
 }
 
 .compare {
-  margin-right: 36px;
+  margin-right: 18px;
 }
 
 .basket {
@@ -533,8 +554,6 @@ body {
   top: 0;
   cursor: pointer;
 }
-
-
 
 .total {
   display: flex;
@@ -1062,6 +1081,7 @@ body {
 }
 
 .slider-button:disabled {
+  cursor: default;
   opacity: 0.1;
 }
 
@@ -1771,6 +1791,7 @@ body {
 }
 
 .mailing-react-email:disabled {
+  cursor: default;
   opacity: 0.3;
   background-color: #F0F0F0;
 }
@@ -1815,6 +1836,7 @@ body {
 }
 
 .mailing-react-send:disabled {
+  cursor: default;
   opacity: 0.3;
   color: #000000;
   background-color: #F0F0F0;
@@ -1970,16 +1992,16 @@ body {
 
 .color-input:disabled+.control-mark {
   pointer-events: none;
-  cursor: pointer;
+  cursor: default;
   opacity: 0.1;
 }
-
 
 .color-input:disabled+.control-mark+span {
-  pointer-events: none;
-  cursor: pointer;
+  cursor: default;
   opacity: 0.1;
 }
+
+
 
 .color-input[type="checkbox"]:checked+.control-mark::before {
   position: absolute;
@@ -2046,13 +2068,11 @@ body {
 
 .bluetooth-input:disabled+.control-mark {
   pointer-events: none;
-  cursor: pointer;
   opacity: 0.1;
 }
 
 .bluetooth-input:disabled+.control-mark+span {
   pointer-events: none;
-  cursor: pointer;
   opacity: 0.1;
 }
 
@@ -2523,7 +2543,7 @@ body {
 
 .result-upload-button:disabled.result-upload-button:hover {
   outline: 3px solid #E5E5E5;
-  ;
+  cursor: default;
   outline-offset: -3px;
 }
 
@@ -2622,7 +2642,6 @@ body {
 .control:not(.pagination-disabled):active {
   background-color: #DCDCDC;
   color: rgb(0, 0, 0, 0.3);
-  ;
 }
 
 .control:not(.pagination-disabled):focus {
@@ -2637,6 +2656,7 @@ body {
 .pagination-disabled {
   color: #444444;
   opacity: 0.3;
+  cursor: default;
 }
 
 /*modal*/
@@ -2651,7 +2671,6 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
-
 
 .modal-container-close {
   display: none;
@@ -2818,6 +2837,7 @@ body {
 .auth-form-field:disabled {
   opacity: 0.3;
   background-color: #F0F0F0;
+  cursor: default;
 }
 
 .auth-form-field:invalid {
@@ -2836,6 +2856,7 @@ body {
   background-color: #F0F0F0;
   margin-top: 34px;
   border: none;
+  cursor: pointer;
 }
 
 .button-modal:focus-within {
@@ -2857,6 +2878,7 @@ body {
 
 .button-modal:disabled {
   opacity: 0.1;
+  cursor: default;
 }
 
 .input-numder {
