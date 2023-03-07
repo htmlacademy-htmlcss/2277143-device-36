@@ -642,7 +642,6 @@ body {
   position: relative;
   display: block;
   line-height: 50px;
-  padding-top: -15px;
   margin-top: -15px;
 }
 
@@ -726,7 +725,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-left: ;
   margin-bottom: 10px;
   padding: 60px;
   list-style-type: none;
@@ -1034,7 +1032,6 @@ body {
   margin: 0 140px;
   top: 175px;
   width: 40%;
-  transform: traslateY(-50%);
 }
 
 .slider-button {
@@ -1638,7 +1635,7 @@ body {
   left: 4.5px;
 }
 
-.about-us-item:nth-last-child {
+.about-us-item:last-child {
   margin-bottom: 0;
 }
 
@@ -2446,7 +2443,6 @@ body {
 .result-item:focus-within {
   outline: 2px solid #AF4FFF;
   outline-offset: 5px;
-  transition: outline 0.s;
 }
 
 .result-item:active:focus-within {
@@ -2811,7 +2807,7 @@ body {
 }
 
 .auth-form-field:nth-of-type(4) {
-  margin-top: 50x;
+  margin-top: 50px;
   position: relative;
 }
 
