@@ -630,7 +630,7 @@ padding-top: 19px;
   outline: none;
 }
 
-.navigation-list .navigation-item:first-child {
+.navigation-list .plus {
   margin-right: auto;
   width: 293px;
 }
@@ -2518,9 +2518,9 @@ padding-top: 19px;
 .result-upload {
   margin: 0 0 44px 0;
   width: 754px;
-  height: 50px;
   text-align: center;
   padding: 0;
+  height: 50px;
 }
 
 .result-upload-button {
@@ -2612,7 +2612,7 @@ padding-top: 19px;
 .result-page-number {
   position: relative;
   text-align: center;
-  margin: 15px auto;
+  margin: 15px 0;
   width: 40px;
 }
 
@@ -2636,11 +2636,11 @@ padding-top: 19px;
 }
 
 .result-page-prev {
-  margin-right: 142px;
+  margin-right: auto;
 }
 
 .result-page-next {
-  margin-left: 142px;
+  margin-left: auto;
 }
 
 .control {
