@@ -1194,13 +1194,20 @@ padding-top: 19px;
 
 .presentation-pagination {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 0;
-  width: 76px;
   margin: 0 auto;
+  padding: 0;
   list-style-type: none;
   line-height: 12px;
+}
+
+.presentation-pagination-item{
+  margin-right: 20px;
+}
+
+.presentation-pagination-item:last-of-type{
+  margin-right: 0;
 }
 
 .presentation-pagination-button {
@@ -1213,6 +1220,7 @@ padding-top: 19px;
   border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
+  gap: 20px;
 }
 
 .presentation-pagination-button:hover {
