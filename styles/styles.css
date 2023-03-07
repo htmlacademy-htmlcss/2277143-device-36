@@ -69,6 +69,11 @@ padding-top: 19px;
   z-index: -1;
 }
 
+.field-group .button:not(.market)::after {
+  z-index: -1;
+}
+
+
 .button:not(.market):hover::after {
   background-color: #FFE17F;
   width: 100%;
@@ -602,6 +607,10 @@ padding-top: 19px;
   outline: none;
 }
 
+
+.field-group .button {
+  z-index: 0;
+}
 /*header-navigation*/
 
 .navigation-list {
@@ -927,6 +936,7 @@ padding-top: 19px;
 }
 
 .footer-social-list .footer-social-item {
+  margin-bottom: 5px;
   min-width: 40px;
   min-height: 40px;
 }
