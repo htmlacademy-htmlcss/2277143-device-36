@@ -851,10 +851,10 @@ margin-top: 0;
 .footer-info {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   margin-bottom: 47px;
   padding: 0;
-  justify-content: space-between;
 }
 
 .footer-info address {
@@ -868,6 +868,7 @@ margin-top: 0;
 
 .footer-info .footer-phone {
   width: 175px;
+  margin-top: 5px;
 }
 
 .footer-phone-number:hover {
@@ -894,6 +895,8 @@ margin-top: 0;
   width: 444px;
   list-style-type: none;
   margin: 0;
+  margin-left: -62px;
+  margin-top: 5px;
   padding: 0;
 }
 
@@ -1862,10 +1865,10 @@ margin-top: 0;
 }
 
 .mailing-react-send {
-  border: none;
   border-left: 3px solid #C4C4C4;
   border-right: 3px solid #C4C4C4;
   border-top: 3px solid #C4C4C4;
+  border-bottom: none;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 1px;
@@ -1884,7 +1887,6 @@ margin-top: 0;
 .mailing-react-send:hover {
   color: #F0F0F0;
   background-color: #000000;
-  border: none;
 }
 
 .mailing-react-send:active {
