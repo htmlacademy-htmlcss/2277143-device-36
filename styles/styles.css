@@ -1286,7 +1286,7 @@ margin-top: 0;
   display: grid;
   grid-template-columns: repeat(6, 160px);
   column-gap: 40px;
-  margin: 0 140px 172px 140px;
+  margin: 0 140px 184px 140px;
   padding: 0;
 }
 
@@ -1378,7 +1378,7 @@ margin-top: 0;
   width: 280px;
   list-style-type: none;
   padding: 0;
-  margin: -40px 116px 137px 0;
+  margin: -38px 123px 137px 0;
 }
 
 .services-slider-pagination::after {
@@ -1387,8 +1387,8 @@ margin-top: 0;
   height: 7px;
   background-color: #000000;
   content: " ";
-  right: -160px;
-  top: 80px;
+  right: -163px;
+  top: 93px;
   transform: rotate(90deg);
 }
 
@@ -1400,6 +1400,7 @@ margin-top: 0;
   font-weight: 800;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 1px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 0.2em;
@@ -1459,7 +1460,7 @@ margin-top: 0;
 
 .services-slider-page-current {
   text-align: left;
-  padding-left: 33px;
+  padding-left: 17px;
   color: #FFE17F;
   background-color: #000000;
   width: 280px;
@@ -1525,6 +1526,7 @@ margin-top: 0;
 }
 
 .services-name {
+  padding-top: 2px;;
   margin-bottom: 34px;
 }
 
@@ -1536,6 +1538,7 @@ margin-top: 0;
 
 .services-slider-item::after {
   position: absolute;
+  top: 4px;
   right: 0;
   content: url("../images/index/services/warranty.svg");
   background-repeat: no-repeat;
@@ -1543,6 +1546,7 @@ margin-top: 0;
 
 .services-slider-item:first-of-type::after {
   position: absolute;
+  top: 4px;
   right: 0;
   content: url("../images/index/services/the-runnig-man.svg");
   background-repeat: no-repeat;
@@ -1550,6 +1554,7 @@ margin-top: 0;
 
 .services-slider-item:last-of-type::after {
   position: absolute;
+  top: 4px;
   right: 0;
   content: url("../images/index/services/delivery-man.svg");
   background-repeat: no-repeat;
