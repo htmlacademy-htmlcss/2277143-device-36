@@ -2705,6 +2705,7 @@ padding-top: 19px;
 .modal-container {
   position: fixed;
   display: flex;
+  flex-wrap: wrap;
   z-index: 1;
   top: 0;
   left: 0;
@@ -2716,7 +2717,6 @@ padding-top: 19px;
 .modal-container-close {
   display: none;
 }
-
 .modal {
   position: relative;
   margin: auto;
@@ -2775,26 +2775,28 @@ padding-top: 19px;
 .field-group {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
   padding: 0;
   margin: 0;
   width: 360px;
 }
 
-
 .modal-part-first {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
   margin-bottom: 42px;
 }
 
 .modal-part-second {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
   margin-bottom: 42px;
 }
 
@@ -2897,7 +2899,6 @@ padding-top: 19px;
   width: 60px;
   height: 60px;
   background-color: #F0F0F0;
-  margin-top: 34px;
   border: none;
   cursor: pointer;
 }
@@ -2917,6 +2918,7 @@ padding-top: 19px;
 .button-modal:focus {
   outline: 2px solid #AF4FFF;
   outline-offset: 2px;
+  z-index: 1;
 }
 
 .button-modal:focus:active {
@@ -2929,12 +2931,13 @@ padding-top: 19px;
 }
 
 .input-numder {
+  position: absolute;
+  left: -60px;
+  top: 34px;
   width: 60px;
   height: 60px;
   padding: 0;
   margin: 0;
-  margin-left: 60px;
-  margin-top: 4px;
   text-align: center;
 }
 
@@ -2944,16 +2947,19 @@ padding-top: 19px;
 }
 
 .min-product {
+  left: -120px;
+  top: 34px;
   background-image: url(../images/modal/minus-modal.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .max-product {
-  margin-left: 120px;
+  top: 34px;
   background-image: url(../images/modal/plus-modal.svg);
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 /*tooltip*/
@@ -3031,3 +3037,4 @@ padding-top: 19px;
   position: relative;
   padding-right: 16px;
 }
+
