@@ -70,6 +70,10 @@ body {
   z-index: -1;
 }
 
+.button.about-us-link:not(.market)::after {
+  width: 270px;
+}
+
 .field-group .button:not(.market)::after {
   z-index: -1;
 }
@@ -1360,7 +1364,7 @@ margin-top: 0;
 
 .services {
   background-color: #F0F0F0;
-  margin-bottom: 70px;
+  margin-bottom: 69px;
 }
 
 .services-slider {
@@ -1378,7 +1382,7 @@ margin-top: 0;
   width: 280px;
   list-style-type: none;
   padding: 0;
-  margin: -38px 123px 137px 0;
+  margin: -38px 123px 135px 0;
 }
 
 .services-slider-pagination::after {
@@ -1566,7 +1570,7 @@ margin-top: 0;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   width: 1160px;
-  margin: 0 auto 70px auto;
+  margin: 0 auto 78px auto;
   padding: 0;
   text-align: center;
   background-color: #F0F0F0;
@@ -1580,7 +1584,7 @@ margin-top: 0;
 .exclusive-delivery {
   position: relative;
   display: block;
-  padding: 40px 125px;
+  padding: 40px 123px 40px 127px;
   margin: 0;
   text-decoration: none;
   color: #000000;
@@ -1750,7 +1754,7 @@ margin-top: 0;
 }
 
 .contacts-address-info {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .contacts-address-info a {
@@ -1767,6 +1771,9 @@ margin-top: 0;
   padding: 0;
 }
 
+.contacts-open-time{
+  margin-bottom: 27px;
+}
 .contacts-open-link {
   display: block;
   width: 260px;
@@ -1859,8 +1866,9 @@ margin-top: 0;
   border-left: 3px solid #C4C4C4;
   border-right: 3px solid #C4C4C4;
   border-top: 3px solid #C4C4C4;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 1px;
   background-color: #F0F0F0;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -1905,6 +1913,7 @@ margin-top: 0;
 
 .mailing-free {
   width: 160px;
+  margin-right: 8px;
   align-self: center;
 }
 
