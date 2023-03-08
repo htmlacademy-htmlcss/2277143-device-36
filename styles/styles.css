@@ -132,7 +132,7 @@ padding-top: 19px;
   width: 1160px;
   margin: 40px auto 0;
   background-color: #FFE17F;
-  padding-bottom: 135px;
+  padding-bottom: 133px;
 }
 
 .header-catalog {
@@ -154,8 +154,8 @@ padding-top: 19px;
 
 .header-logo {
   width: 145px;
-  height: 36px;
-  margin: -20px 0 30px;
+  height: 38px;
+  margin: -22px 0 28px;
   padding: 0;
   border: 0;
 }
@@ -181,7 +181,7 @@ padding-top: 19px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 30px 0;
+  margin: 0 0 31px 0;
   padding: 0;
 }
 
@@ -193,7 +193,7 @@ padding-top: 19px;
   width: 517px;
   min-height: 40px;
   padding: 0;
-  margin: 0 26px 0 0;
+  margin: 0 27px 0 0;
   color: #000000;
   font-weight: 400;
   font-size: 16px;
@@ -217,7 +217,7 @@ padding-top: 19px;
   min-height: 36px;
   background-image: url(../images/header/img-search.svg);
   background-repeat: no-repeat;
-  background-position: top 12px left 16px;
+  background-position: top 10px left 14px;
   background-size: 16px 16px;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
@@ -303,7 +303,7 @@ padding-top: 19px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 497px;
+  width: 496px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -316,8 +316,8 @@ padding-top: 19px;
   margin: 0;
 }
 
-.user-list-item:last-child {
-  width: 235px;
+.user-list-item:last-child {/*
+  width: 235px;*/
   padding: 0;
   margin: 0;
 }
@@ -358,7 +358,7 @@ padding-top: 19px;
 .entry::before {
   content: url("../images/header/img-user.svg");
   background-repeat: no-repeat;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 .entry {
@@ -378,22 +378,22 @@ padding-top: 19px;
 }
 
 .compare {
-  margin-right: 18px;
+  margin-right: 16px;
+  width: 105px;
 }
 
 .basket {
-  padding-left: 35px;
+  padding-left: 45px;
   position: relative;
   text-align: right;
 }
 
 .basket::before {
   position: absolute;
-  left: 0;
-  top: 2px;
-  content: url("../images/header/nasket+2.svg");
+  left: 2px;
+  top: 0;
+  content: url("../images/header/basket+2.svg");
   background-repeat: no-repeat;
-  margin-right: 12px;
 }
 
 /*popover*/
@@ -640,7 +640,7 @@ padding-top: 19px;
 }
 
 .navigation-list .plus {
-  margin-right: auto;
+  margin-right: 276.5px;
   width: 293px;
 }
 
@@ -666,10 +666,19 @@ padding-top: 19px;
   left: -60px;
   flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 10px;
   padding: 0;
   z-index: 1;
 }
+
+
+
+
+
+
+
+
+
+
 
 .catalog-link::after {
   position: absolute;
@@ -677,9 +686,8 @@ padding-top: 19px;
   width: 50px;
   height: 50px;
   opacity: 0.3;
-  top: 0;
-  right: 2px;
-
+  top: -1px;
+  right: 0;
 }
 
 .plus:focus-within .catalog-link::after {
@@ -704,13 +712,17 @@ padding-top: 19px;
   position: relative;
 }
 
-.navigation-item:nth-child(4n) {
-  margin-right: 0;
+.navigation-item:nth-child(3) {
+  margin-right: 48px;
+}
+
+.navigation-item:nth-child(4) {
+  margin-right: -4px;
 }
 
 .navigation-item {
   padding-top: 15px;
-  margin-right: 45px;
+  margin-right: 43px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -732,7 +744,6 @@ padding-top: 19px;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 10px;
   padding: 60px;
   list-style-type: none;
   display: none;
@@ -762,10 +773,15 @@ padding-top: 19px;
 }
 
 .catalog-block .catalog-block-item {
-  margin-bottom: 22px;
+  margin-bottom: 18px;
+}
+
+.catalog-block .catalog-block-item:last-of-type {
+  margin-bottom: 56px;
 }
 
 .catalog-item {
+  padding-top: 4px;
   width: 212px;
 }
 
@@ -2428,7 +2444,7 @@ padding-top: 19px;
   background-position: center;
   width: 57px;
   height: 57px;
-  background-image: url(../images/catalog-monopods/NEW.svg);
+  background-image: url(../images/catalog-monopods/new.svg);
   content: "";
   right: 27px;
   top: 27px;
@@ -2993,6 +3009,10 @@ padding-top: 19px;
 }
 
 .tooltip-text {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  right: -40px;
   background-color: #000000;
   color: #FFFFFF;
   font-family: 'Rubik';
@@ -3002,13 +3022,8 @@ padding-top: 19px;
   line-height: 20px;
   text-transform: none;
   padding: 19px 17px;
-  display: block;
   width: 164px;
-  position: absolute;
   margin-top: 10px;
-  right: -40px;
-  z-index: 1;
-  display: none;
 }
 
 .tooltip-text:before {
@@ -3037,4 +3052,3 @@ padding-top: 19px;
   position: relative;
   padding-right: 16px;
 }
-
