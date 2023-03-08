@@ -400,7 +400,7 @@ padding-top: 19px;
 
 .popover {
   position: absolute;
-  top: 36px;
+  top: 42px;
   right: -77px;
   z-index: 1;
   box-sizing: border-box;
@@ -415,8 +415,8 @@ padding-top: 19px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  align-items: center;
-  display: none;
+  align-items: center;/*
+  display: none;*/
 }
 
 .item-popover:focus-within .popover {
@@ -425,7 +425,7 @@ padding-top: 19px;
 
 .popover:before {
   position: absolute;
-  left: 50%;
+  left: 48.5%;
   transform: translateY(-50%);
   top: -5px;
   content: "";
@@ -444,10 +444,6 @@ padding-top: 19px;
   width: 100px;
   height: 30px;
   border: none;
-}
-
-.popover-cart .popover-close-button {
-  background-color: blue;
 }
 
 .popover-content {
@@ -482,6 +478,10 @@ padding-top: 19px;
   display: flex;
   width: 215px;
   text-decoration: none;
+}
+
+.popover-img {
+margin-top: 0;
 }
 
 .popover-product p {
@@ -521,7 +521,7 @@ padding-top: 19px;
   background-color: #000000;
   border: none;
   position: absolute;
-  right: 0;
+  right: -2px;
   height: 10px;
   width: 10px;
 }
@@ -556,18 +556,23 @@ padding-top: 19px;
 
 .total {
   display: flex;
+  width: 280px;
+  padding: 0 20px;;
+  margin: 0;
+  margin-left: -20px;
   justify-content: space-between;
   background-color: #1A1A1A;
 }
 
 .total p {
   margin: 0;
-  padding: 11px 0;
+  padding: 12.5px 0;
 }
 
 .open-basket {
   margin-top: 20px;
-  padding: 14px 0;
+  padding: 14.5px 0;
+  padding-left: 2px;
   display: block;
   width: 280px;
   color: #000000;
@@ -582,6 +587,7 @@ padding-top: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   cursor: pointer;
+  border: none;
 }
 
 .open-basket:hover {
