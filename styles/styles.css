@@ -2742,10 +2742,10 @@ margin-top: 0;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 .modal {
   position: relative;
   margin: auto;
@@ -2754,7 +2754,7 @@ margin-top: 0;
 
 .modal-auth {
   width: 760px;
-  padding: 72px 80px;
+  padding: 62px 70px;
   border: 10px solid #000000;
 }
 
