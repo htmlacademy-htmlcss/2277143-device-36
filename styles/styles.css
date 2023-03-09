@@ -76,6 +76,7 @@ body {
 
 .field-group .button {
   width: 200px;
+	z-index: 0;
 }
 
 .field-group .button:not(.market)::after {
@@ -280,7 +281,6 @@ body {
   right: -2px;
   bottom: -2px;
   left: -2px;
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -408,7 +408,6 @@ body {
   position: absolute;
   top: 42px;
   right: -77px;
-  z-index: 1;
   box-sizing: border-box;
   width: 320px;
   padding: 20px;
@@ -454,7 +453,7 @@ body {
 
 .popover-content {
   height: 100%;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -583,7 +582,7 @@ body {
   width: 280px;
   color: #000000;
   background-color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -618,9 +617,6 @@ body {
   outline: none;
 }
 
-.field-group .button {
-  z-index: 0;
-}
 /*header-navigation*/
 
 .navigation-list {
@@ -667,7 +663,6 @@ body {
 }
 
 .plus:focus-within .catalog-list {
-  display: block;
   width: 1160px;
   background-color: #ffe17f;
   display: flex;
@@ -773,22 +768,19 @@ body {
 .catalog-item {
   padding-top: 4px;
   width: 212px;
-}
-
-.catalog-item:first-child {
-  width: 222px;
-  margin-right: 30px;
-  margin-left: 60px;
-}
-
-.catalog-item {
-  font-family: "Rubik", sans-serif;
+	font-family: "Rubik";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
   letter-spacing: normal;
   text-decoration: none;
+}
+
+.catalog-item:first-child {
+  width: 222px;
+  margin-right: 30px;
+  margin-left: 60px;
 }
 
 .catalog-item a {
@@ -864,7 +856,7 @@ body {
 }
 
 .footer-info address {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -983,7 +975,6 @@ body {
 .footer-social-link:focus::before {
   content: "";
   position: absolute;
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
   width: 100%;
@@ -1018,7 +1009,7 @@ body {
 
 .page-footer {
   background-color: #444444;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-footer a {
@@ -1042,7 +1033,6 @@ body {
 }
 
 .footer-htmlacademy-logo:focus {
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1288,7 +1278,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1457,6 +1446,7 @@ body {
   background-color: #ffcc33;
   height: 100%;
 }
+
 .button-service:focus:active {
   outline: none;
 }
@@ -1746,7 +1736,7 @@ body {
 }
 
 .contacts-title::before {
-  position: absolute; 
+  position: absolute;
   background-color: #000000;
   content: " ";
   top: -47px;
@@ -1849,7 +1839,6 @@ body {
 }
 
 .mailing-react-email {
-  padding: 0;
   padding: 0 16px;
   border: 0;
   background-color: #f0f0f0;
@@ -1864,7 +1853,6 @@ body {
 
 .mailing-react-email:focus {
   z-index: 1;
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1909,7 +1897,6 @@ body {
 }
 
 .mailing-react-send:focus {
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1980,7 +1967,6 @@ body {
 }
 
 .breadcrumbs-link:focus {
-  outline: none;
   outline: 2px solid #af4fff;
 }
 
@@ -2231,10 +2217,9 @@ body {
 .sorting select {
   width: 141px;
   padding: 0;
-  font-weight: 400;
   color: #000000;
   background-color: #f0f0f0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2389,7 +2374,7 @@ body {
 }
 
 .range-wraper-inputs span {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2412,7 +2397,7 @@ body {
 
 .range-input {
   padding: 0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2579,7 +2564,7 @@ body {
   width: 232px;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .result-price {
@@ -2627,7 +2612,6 @@ body {
 }
 
 .result-upload-button:focus {
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -2703,7 +2687,6 @@ body {
   position: absolute;
   content: "";
   left: 0;
-  outline: none;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
   width: 38px;
@@ -2830,7 +2813,7 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 42px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
@@ -2882,7 +2865,7 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 2px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2893,7 +2876,7 @@ body {
   background-color: #f0f0f0;
   border: none;
   padding: 20px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2902,7 +2885,7 @@ body {
 
 .modal-title {
   margin-bottom: 14px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -3067,7 +3050,7 @@ body {
   right: -40px;
   background-color: #000000;
   color: #ffffff;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
