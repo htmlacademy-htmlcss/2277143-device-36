@@ -76,7 +76,7 @@ body {
 
 .field-group .button {
   width: 200px;
-	z-index: 0;
+  z-index: 0;
 }
 
 .field-group .button:not(.market)::after {
@@ -431,7 +431,7 @@ body {
 .popover::before {
   position: absolute;
   left: 48.5%;
-  transform: translateY(-50%);
+  transform: rotate(45deg);
   top: -5px;
   content: "";
   background-repeat: no-repeat;
@@ -439,7 +439,6 @@ body {
   width: 10px;
   height: 10px;
   background-color: #000000;
-  transform: rotate(45deg);
 }
 
 .popover-close-button {
@@ -739,8 +738,7 @@ body {
 }
 
 .catalog-list {
-  width: 1000px;
-  display: flex;
+  width: 1040px;
   flex-wrap: wrap;
   margin: 0;
   padding: 60px;
@@ -768,7 +766,6 @@ body {
 .catalog-item {
   padding-top: 4px;
   width: 212px;
-	font-family: "Rubik";
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -793,6 +790,7 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
 .catalog-block {
   margin: 0 0 27px 0;
   padding: 0;
@@ -1129,7 +1127,6 @@ body {
 }
 
 .presentation-slider-item {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 140px;
@@ -1519,7 +1516,6 @@ body {
 
 .services-slider-item {
   position: relative;
-  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 729px;
@@ -1782,6 +1778,7 @@ body {
 .contacts-open-time {
   margin-bottom: 27px;
 }
+
 .contacts-open-link {
   display: block;
   width: 260px;
