@@ -824,7 +824,7 @@ margin-top: 0;
   flex-wrap: wrap;
   flex-direction: column;
   width: 1160px;
-  margin: 61px auto;
+  margin: 62px auto;
   padding: 0;
 }
 
@@ -832,6 +832,7 @@ margin-top: 0;
   width: 145px;
   height: 36px;
   margin-bottom: 35px;
+  margin-left: 1px;
   outline: none;
 }
 
@@ -862,17 +863,22 @@ margin-top: 0;
 }
 
 .footer-info address {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-family: 'Rubik';
   font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 20px;
   padding: 0;
   width: 239px;
 }
 
+.footer-address {
+  letter-spacing: -0.1px;
+}
+
 .footer-info .footer-phone {
   width: 175px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .footer-phone-number:hover {
@@ -896,10 +902,10 @@ margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 444px;
+  width: 447px;
   list-style-type: none;
   margin: 0;
-  margin-left: -62px;
+  margin-left: -63px;
   margin-top: 5px;
   padding: 0;
 }
@@ -954,7 +960,7 @@ margin-top: 0;
   background-color: #FFC700;
   content: "";
   left: -504px;
-  top: 16px;
+  top: 17px;
 }
 
 .footer-social-list .footer-social-item {
@@ -1016,6 +1022,10 @@ margin-top: 0;
 
 .page-footer a {
   color: #FFFFFF;
+}
+
+.footer-htmlacademy-logo {
+  margin-top: 3px;
 }
 
 .footer-htmlacademy-logo:hover .logo-academy {
@@ -1798,6 +1808,7 @@ margin-top: 0;
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+  margin-bottom: px;
   padding: 0;
   background-color: #F0F0F0;
 }
@@ -1824,7 +1835,7 @@ margin-top: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
-  margin: 0 140px 56px 140px;
+  margin: 0 140px 54px 140px;
 }
 
 .mailing-react-form {
