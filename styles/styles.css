@@ -2784,10 +2784,10 @@ margin-top: 0;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 .modal {
   position: relative;
   margin: auto;
@@ -3012,11 +3012,12 @@ margin-top: 0;
   padding: 0;
   margin: 0;
   text-align: center;
+  appearance: textfield;
 }
-
+.input-number::-webkit-outer-spin-button,
 .input-numder::-webkit-inner-spin-button {
   appearance: none;
-  margin: 0
+  margin: 0;
 }
 
 .min-product {
