@@ -45,7 +45,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   width: 220px;
- padding-top: 9px;
+  padding-top: 9px;
   padding-bottom: 9px;
   line-height: 21px;
   text-align: center;
@@ -74,9 +74,17 @@ body {
   width: 270px;
 }
 
+.field-group .button {
+  width: 200px;
+}
+
 .field-group .button:not(.market)::after {
   z-index: -1;
+  width: 200px;
 }
+
+
+
 
 .button:not(.market):hover::after {
   background-color: #FFE17F;
@@ -2761,8 +2769,8 @@ margin-top: 0;
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 84px;
-  right: 80px;
+  top: 75px;
+  right: 70px;
   width: 26px;
   height: 26px;
   background-color: #ffffff;
@@ -2817,7 +2825,7 @@ margin-top: 0;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .modal-part-second {
@@ -2835,6 +2843,7 @@ margin-top: 0;
 
 .modal-part-second .field-group:nth-of-type(2) {
   width: 180px;
+  margin-top: -4px;
 }
 
 .field-group:nth-of-type(5) {
@@ -2873,6 +2882,7 @@ margin-top: 0;
   letter-spacing: -0.02em;
   color: #000000;
 }
+
 
 .name-modal {
   background-image: url(../images/modal/user-modal.svg);
@@ -3063,5 +3073,5 @@ margin-top: 0;
 
 .form-label-icon {
   position: relative;
-  padding-right: 16px;
+  padding-right: 20px;
 }
