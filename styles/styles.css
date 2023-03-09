@@ -1548,7 +1548,7 @@ body {
 }
 
 .services-name {
-  padding-top: 2px;;
+  padding-top: 2px;
   margin-bottom: 34px;
 }
 
@@ -1585,13 +1585,13 @@ body {
 /*delivery*/
 
 .exclusive-service {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   width: 1160px;
   margin: 0 auto 78px auto;
   padding: 0;
   text-align: center;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   font-weight: 800;
   font-size: 20px;
   line-height: 23px;
@@ -1611,7 +1611,7 @@ body {
 }
 
 .exclusive-delivery:hover::before {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .exclusive-delivery:hover::after {
@@ -1623,7 +1623,7 @@ body {
 }
 
 .exclusive-delivery:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -1638,10 +1638,10 @@ body {
   position: absolute;
   width: 125px;
   height: 100px;
-  content: url(../images/index/services/delivery-car.svg);
+  content: url("../images/index/services/delivery-car.svg");
   left: 0;
   top: 0;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .exclusive-delivery::after {
@@ -1655,7 +1655,7 @@ body {
   height: 40px;
   background-color: rgba(220, 220, 220, 0.5);
   border-radius: 40px;
-  content: url(../images/index/services/info.svg);
+  content: url("../images/index/services/info.svg");
   opacity: 0.3;
 }
 
@@ -1714,7 +1714,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  background-color: #FFC700;
+  background-color: #ffc700;
   content: " ";
   border-radius: 4px;
   top: 6px;
@@ -1780,7 +1780,7 @@ body {
 }
 
 .contacts-address-phone:focus-visible {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -1789,7 +1789,7 @@ body {
   padding: 0;
 }
 
-.contacts-open-time{
+.contacts-open-time {
   margin-bottom: 27px;
 }
 .contacts-open-link {
@@ -1810,7 +1810,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .mailing-review {
@@ -1822,7 +1822,7 @@ body {
 
 .mailing-review h2 {
   width: 348px;
-  margin: 64px 252px 144px 7px
+  margin: 64px 252px 144px 7px;
 }
 
 .mailing-review p {
@@ -1839,7 +1839,7 @@ body {
 }
 
 .mailing-react-form {
-  border-bottom: 3px solid #C4C4C4;
+  border-bottom: 3px solid #c4c4c4;
   display: grid;
   grid-template-columns: 557px 253px;
   box-sizing: border-box;
@@ -1852,43 +1852,43 @@ body {
   padding: 0;
   padding: 0 16px;
   border: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   font: inherit;
   font-weight: 400;
   color: #444444;
 }
 
 .mailing-react-email:hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .mailing-react-email:focus {
   z-index: 1;
   outline: none;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
 .mailing-react-email:disabled {
   cursor: default;
   opacity: 0.3;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .mail-errore {
-  border: 2px solid #FF3D3D;
+  border: 2px solid #ff3d3d;
 }
 
 .mailing-react-send {
-  border-left: 3px solid #C4C4C4;
-  border-right: 3px solid #C4C4C4;
-  border-top: 3px solid #C4C4C4;
+  border-left: 3px solid #c4c4c4;
+  border-right: 3px solid #c4c4c4;
+  border-top: 3px solid #c4c4c4;
   border-bottom: none;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 1px;
-  background-color: #F0F0F0;
-  font-family: 'Raleway', sans-serif;
+  background-color: #f0f0f0;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
   font-size: 18px;
@@ -1900,7 +1900,7 @@ body {
 }
 
 .mailing-react-send:hover {
-  color: #F0F0F0;
+  color: #f0f0f0;
   background-color: #000000;
 }
 
@@ -1910,7 +1910,7 @@ body {
 
 .mailing-react-send:focus {
   outline: none;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -1922,10 +1922,10 @@ body {
   cursor: default;
   opacity: 0.3;
   color: #000000;
-  background-color: #F0F0F0;
-  border-left: 3px solid #C4C4C4;
-  border-right: 3px solid #C4C4C4;
-  border-top: 3px solid #C4C4C4;
+  background-color: #f0f0f0;
+  border-left: 3px solid #c4c4c4;
+  border-right: 3px solid #c4c4c4;
+  border-top: 3px solid #c4c4c4;
 }
 
 .mailing-free {
@@ -1981,7 +1981,7 @@ body {
 
 .breadcrumbs-link:focus {
   outline: none;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .breadcrumbs-link:focus:active {
@@ -2002,7 +2002,7 @@ body {
   width: 1440px;
   padding: 0;
   margin: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .filters {
@@ -2064,7 +2064,7 @@ body {
   left: 0;
   width: 16px;
   height: 16px;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #cccccc;
   border-radius: 3px;
 }
 
@@ -2096,10 +2096,10 @@ body {
   height: 10px;
   content: "";
   background-repeat: no-repeat;
-  background-image: url(../images/catalog-monopods/sorts-filtrs/black-mark.svg);
+  background-image: url("../images/catalog-monopods/sorts-filtrs/black-mark.svg");
 }
 
-.color-input[type="checkbox"]:checked+.control-mark {
+.color-input[type="checkbox"]:checked + .control-mark {
   border: 2px solid #000000;
   border-radius: 3px;
 }
@@ -2112,7 +2112,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2186,7 +2186,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2195,7 +2195,7 @@ body {
 }
 
 .selection-name {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
@@ -2219,7 +2219,7 @@ body {
 }
 
 .sorting-type:focus-visible {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2233,8 +2233,8 @@ body {
   padding: 0;
   font-weight: 400;
   color: #000000;
-  background-color: #F0F0F0;
-  font-family: 'Rubik';
+  background-color: #f0f0f0;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2260,7 +2260,7 @@ body {
 
 .from-mark {
   position: absolute;
-  background-image: url(../images/catalog-monopods/sorts-filtrs/sort-from-end.svg);
+  background-image: url("../images/catalog-monopods/sorts-filtrs/sort-from-end.svg");
   background-repeat: no-repeat;
   width: 11px;
   height: 10px;
@@ -2271,7 +2271,7 @@ body {
 }
 
 .from-mark.from-start {
-  background-image: url(../images/catalog-monopods/sorts-filtrs/sort-from-start.svg);
+  background-image: url("../images/catalog-monopods/sorts-filtrs/sort-from-start.svg");
 }
 
 .sorting-from-element:hover .from-mark {
@@ -2288,7 +2288,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid #AF4FFF;
+  border: 2px solid #af4fff;
   width: 30px;
   height: 30px;
   opacity: 1;
@@ -2314,16 +2314,16 @@ body {
   height: 2px;
   background-color: #000000;
   top: -13px;
-  left: 1px
+  left: 1px;
 }
 
 .range-scale {
   position: relative;
   width: 200px;
   height: 2px;
-  margin-top: 8px;;
-  margin-bottom: 12px;;
-  background-color: #DCDCDC;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  background-color: #dcdcdc;
 }
 
 .range-bar {
@@ -2340,11 +2340,11 @@ body {
   border: 2px solid #242424;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .range-toggle:hover {
-  border: 2px solid #C4C4C4;
+  border: 2px solid #c4c4c4;
 }
 
 .range-toggle:active {
@@ -2356,7 +2356,7 @@ body {
   outline: none;
 }
 
-.range-toggle:focus:after {
+.range-toggle:focus::after {
   position: absolute;
   content: "";
   top: 50%;
@@ -2364,11 +2364,11 @@ body {
   transform: translate(-50%, -50%);
   height: 20px;
   width: 20px;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
-.range-toggle:active:focus:after {
+.range-toggle:active:focus::after {
   outline: none;
 }
 
@@ -2389,7 +2389,7 @@ body {
 }
 
 .range-wraper-inputs span {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2412,7 +2412,7 @@ body {
 
 .range-input {
   padding: 0;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2457,7 +2457,7 @@ body {
 /*result*/
 
 .catalog-right-column-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 70px 40px 78px;
 }
 
@@ -2480,7 +2480,7 @@ body {
   background-position: center;
   width: 57px;
   height: 57px;
-  background-image: url(../images/catalog-monopods/new.svg);
+  background-image: url("../images/catalog-monopods/new.svg");
   content: "";
   right: 27px;
   top: 27px;
@@ -2504,7 +2504,7 @@ body {
   width: 100%;
   right: 0;
   margin-top: 7px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .result-item:hover div {
@@ -2536,7 +2536,7 @@ body {
 }
 
 .result-item:active span::after {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .result-item-link:focus-visible {
@@ -2544,7 +2544,7 @@ body {
 }
 
 .result-item:focus-within {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 5px;
 }
 
@@ -2563,7 +2563,6 @@ body {
   justify-content: space-between;
   padding: 0;
   margin: 23px 0 0 0;
-   
 }
 
 .result-item-link {
@@ -2600,7 +2599,7 @@ body {
   display: block;
   width: 100%;
   border: 3px solid#E5E5E5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 100%;
   font-weight: 800;
   font-size: 16px;
@@ -2629,7 +2628,7 @@ body {
 
 .result-upload-button:focus {
   outline: none;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2643,7 +2642,7 @@ body {
 }
 
 .result-upload-button:disabled.result-upload-button:hover {
-  outline: 3px solid #E5E5E5;
+  outline: 3px solid #e5e5e5;
   cursor: default;
   outline-offset: -3px;
 }
@@ -2658,7 +2657,7 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   line-height: 20px;
 }
 
@@ -2669,12 +2668,12 @@ body {
   line-height: 20px;
   text-align: center;
   color: rgba(68, 68, 68, 0.3);
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .result-pagination-link span {
   display: inline-block;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .pagination-current {
@@ -2705,7 +2704,7 @@ body {
   content: "";
   left: 0;
   outline: none;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
   width: 38px;
   height: 38px;
@@ -2730,7 +2729,7 @@ body {
 .control {
   display: block;
   padding: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -2742,16 +2741,16 @@ body {
 }
 
 .control:not(.pagination-disabled):hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .control:not(.pagination-disabled):active {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   color: rgb(0, 0, 0, 0.3);
 }
 
 .control:not(.pagination-disabled):focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2819,7 +2818,7 @@ body {
 }
 
 .modal-close-button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
@@ -2831,7 +2830,7 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 42px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
@@ -2883,7 +2882,7 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 2px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2891,10 +2890,10 @@ body {
 }
 
 .auth-form-field {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: none;
   padding: 20px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2903,7 +2902,7 @@ body {
 
 .modal-title {
   margin-bottom: 14px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -2914,14 +2913,14 @@ body {
 
 
 .name-modal {
-  background-image: url(../images/modal/user-modal.svg);
+  background-image: url("../images/modal/user-modal.svg");
   background-repeat: no-repeat;
   background-position-x: 326px;
   background-position-y: 24px;
 }
 
 .email-modal {
-  background-image: url(../images/modal/mail-modal.svg);
+  background-image: url("../images/modal/mail-modal.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 326px;
@@ -2938,35 +2937,35 @@ body {
 }
 
 .auth-form-field:hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .auth-form-field:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
   z-index: 1;
 }
 
 .auth-form-field:disabled {
   opacity: 0.3;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   cursor: default;
 }
 
 .mail-errore-popover {
-  outline: 2px solid #FF3D3D;
+  outline: 2px solid #ff3d3d;
   outline-offset: -2px;
 }
 
 .mail-errore-popover + .small-text-modal {
-  color: #FF3D3D;
+  color: #ff3d3d;
 }
 
 .button-modal {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: none;
   cursor: pointer;
 }
@@ -2984,7 +2983,7 @@ body {
 }
 
 .button-modal:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
   outline-offset: 2px;
   z-index: 1;
 }
@@ -3019,17 +3018,16 @@ body {
 .min-product {
   left: -120px;
   top: 34px;
-  background-image: url(../images/modal/minus-modal.svg);
+  background-image: url("../images/modal/minus-modal.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .max-product {
   top: 34px;
-  background-image: url(../images/modal/plus-modal.svg);
+  background-image: url("../images/modal/plus-modal.svg");
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 /*tooltip*/
@@ -3059,7 +3057,7 @@ body {
 }
 
 .tooltip-toggle:hover .tooltip-icon {
-  color: #AF7842;
+  color: #af7842;
 }
 
 .tooltip-text {
@@ -3068,8 +3066,8 @@ body {
   display: none;
   right: -40px;
   background-color: #000000;
-  color: #FFFFFF;
-  font-family: 'Rubik';
+  color: #ffffff;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3080,7 +3078,7 @@ body {
   margin-top: 10px;
 }
 
-.tooltip-text:before {
+.tooltip-text::before {
   position: absolute;
   z-index: 1;
   content: "";
