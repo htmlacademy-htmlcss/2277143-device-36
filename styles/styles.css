@@ -1182,9 +1182,7 @@ body {
 }
 
 .presentation-slider-more {
-  display: block;
   margin-bottom: 50px;
-  padding-left: 10px;
   cursor: pointer;
 }
 
