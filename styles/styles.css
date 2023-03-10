@@ -2761,10 +2761,10 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: relative;
@@ -2936,12 +2936,13 @@ body {
   cursor: default;
 }
 
-.mail-errore-popover {
-  outline: 2px solid #ff3d3d;
-  outline-offset: -2px;
+/*class error for modal*/
+
+.mail-errore-modal {
+  border: 2px solid #ff3d3d;
 }
 
-.mail-errore-popover + .small-text-modal {
+.mail-errore-modal + .small-text-modal {
   color: #ff3d3d;
 }
 
